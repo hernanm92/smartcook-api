@@ -1,0 +1,2 @@
+# smartcook-api
+SmartCook Project
