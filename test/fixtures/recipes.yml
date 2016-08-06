@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image_url: MyString
+  stars: 1.5
+  description: MyText
+  validated: false
+  steps: MyText
+  tips: MyText
+
+two:
+  name: MyString
+  image_url: MyString
+  stars: 1.5
+  description: MyText
+  validated: false
+  steps: MyText
+  tips: MyText
