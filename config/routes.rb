@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  get '/recipes', to: 'recipes#index'
   resources :users, except: [:new, :edit]
   resources :ingredients, except: [:new, :edit]
   resources :recipes, except: [:new, :edit]
+  resources :food_categories, except: [:new, :edit]
+  resources :badges, except: [:new, :edit]
 
   get '/', to: 'application#index'
   get '*path', to: 'application#routing_error'
