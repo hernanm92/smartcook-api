@@ -19,12 +19,11 @@ gem 'rack-cors', require: 'rack/cors'
 
 gem 'typhoeus'
 
-# gem 'sqlite3'
-
 group :development, :test do
+  gem 'rubocop-rspec'
+  gem 'rubocop'
+  # gem 'sqlite3'
   gem 'byebug'
-
   gem 'web-console', '~> 2.0'
-
   gem 'spring'
 end
