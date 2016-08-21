@@ -1,3 +1,3 @@
 class BadgeSerializer < ActiveModel::Serializer
-  attributes :name, :description, :image_url
+  attributes :id, :name, :description, :image_url
 end
