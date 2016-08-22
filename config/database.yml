@@ -23,7 +23,7 @@ production:
   <<: *default
   host: 13.92.234.146
   username: smartcookdb
-  password: Smartcookutn14
+  password: smartcookdb
   port: 5432
 
 # Warning: The database defined as "test" will be erased and
