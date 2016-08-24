@@ -32,7 +32,7 @@ class IngredientsController < ApplicationController
     {
       name: params.require(:name),
       image_url: params.require(:image_url),
-      category_id: params.require(:category_id),
+      food_category_id: params.require(:food_category_id),
       vegetarian: params.require(:vegetarian),
       vegan: params.require(:vegan),
       celiac: params.require(:celiac),
@@ -52,7 +52,7 @@ class IngredientsController < ApplicationController
 
   def ingredient_update_params
     params.slice(
-      :name, :image_url, :category_id, :vegetarian, :vegan, :celiac, :diabetic,
+      :name, :image_url, :food_category_id, :vegetarian, :vegan, :celiac, :diabetic,
       :calories, :proteins, :carbohydrates, :fats
     ).permit!
   end
