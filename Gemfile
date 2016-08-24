@@ -18,6 +18,7 @@ gem 'ipaddress'
 gem 'rack-cors', require: 'rack/cors'
 
 gem 'typhoeus'
+gem 'annotate', '~> 2.6.10'
 
 group :development, :test do
   gem 'rubocop-rspec'

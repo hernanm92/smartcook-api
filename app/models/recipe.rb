@@ -1,3 +1,23 @@
+# == Schema Information
+#
+# Table name: recipes
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  image_url   :string
+#  stars       :float
+#  validated   :boolean
+#  description :text
+#  vegetarian  :boolean
+#  vegan       :boolean
+#  celiac      :boolean
+#  diabetic    :boolean
+#  steps       :text
+#  tips        :text
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
 class Recipe < ActiveRecord::Base
   validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
   validates :description, presence: true, length: { in: 5..200 }

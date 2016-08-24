@@ -1,3 +1,23 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id         :integer          not null, primary key
+#  username   :string
+#  name       :string
+#  email      :string
+#  password   :string
+#  avatar     :string
+#  birthdate  :datetime
+#  gender     :string
+#  vegetarian :boolean
+#  vegan      :boolean
+#  celiac     :boolean
+#  diabetic   :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class User < ActiveRecord::Base
   validates :username, presence: true, uniqueness: true, length: { in: 5..15 }
   validates :name, presence: true, length: { in: 5..30 }
