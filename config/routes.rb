@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ingredients_per_recipes, except: [:new, :edit]
   resources :users, except: [:new, :edit]
   resources :ingredients, except: [:new, :edit]
   resources :recipes, except: [:new, :edit]

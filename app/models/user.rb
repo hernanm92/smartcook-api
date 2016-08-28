@@ -24,6 +24,9 @@ class User < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true, length: { in: 5..30 }
   validates :password, presence: true, length: { in: 5..30 }
 
+  # has_many :users, dependent: :destroy
+  # has_many :frecuent_users, source: :users
+
   after_initialize :set_defaults
 
   def self.find_by!(params)
