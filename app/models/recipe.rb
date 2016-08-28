@@ -19,9 +19,12 @@
 #
 
 class Recipe < ActiveRecord::Base
+  has_many :ingredients_per_recipes, dependent: :destroy
+  has_many :ingredients, through: :ingredients_per_recipes
+
   validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
   validates :description, presence: true, length: { in: 5..200 }
-  validates :steps, presence: true, length: { in: 5..25 }
+  validates :steps, presence: true # , length: { in: 5..50 }
 
   after_initialize :set_defaults
   after_create :set_restrictions

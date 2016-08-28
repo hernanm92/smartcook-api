@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160828214328) do
+ActiveRecord::Schema.define(version: 20160828224016) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -71,6 +71,16 @@ ActiveRecord::Schema.define(version: 20160828214328) do
     t.string   "tips",        default: [],              array: true
   end
 
+  create_table "recipes_per_users", force: :cascade do |t|
+    t.integer  "recipe_id"
+    t.integer  "user_id"
+    t.boolean  "favorite",   default: false
+    t.boolean  "owned",      default: false
+    t.integer  "vote"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "username"
     t.string   "name"
@@ -90,4 +100,6 @@ ActiveRecord::Schema.define(version: 20160828214328) do
   add_foreign_key "ingredients", "food_categories"
   add_foreign_key "ingredients_per_recipes", "ingredients"
   add_foreign_key "ingredients_per_recipes", "recipes"
+  add_foreign_key "recipes_per_users", "recipes"
+  add_foreign_key "recipes_per_users", "users"
 end

@@ -12,6 +12,9 @@
 #
 
 class IngredientsPerRecipe < ActiveRecord::Base
+  belongs_to :ingredients
+  belongs_to :recipes
+
   validates :ingredient_id, presence: true, numericality: { only_integer: true }
   validates :recipe_id, presence: true, numericality: { only_integer: true }
   validates :amount, presence: true, numericality: { only_integer: true }

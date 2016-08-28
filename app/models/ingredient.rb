@@ -20,6 +20,8 @@
 
 class Ingredient < ActiveRecord::Base
   belongs_to :food_category
+  has_many :ingredients_per_recipes, dependent: :destroy
+  has_many :recipes, through: :ingredients_per_recipes
 
   validates :name, presence: true, uniqueness: true, length: { in: 3..30 }
   validates :image_url, presence: true, uniqueness: true
