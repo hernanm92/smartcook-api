@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: ingredients_per_recipes
+#
+#  id            :integer          not null, primary key
+#  ingredient_id :integer
+#  recipe_id     :integer
+#  amount        :integer
+#  unit          :string
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
 class IngredientsPerRecipe < ActiveRecord::Base
   validates :ingredient_id, presence: true, numericality: { only_integer: true }
   validates :recipe_id, presence: true, numericality: { only_integer: true }
