@@ -1,0 +1,2 @@
+class IngredientsPerUsersController < ApplicationController
+end

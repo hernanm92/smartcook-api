@@ -24,8 +24,13 @@ class User < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true, length: { in: 5..30 }
   validates :password, presence: true, length: { in: 5..30 }
 
-  # has_many :users, dependent: :destroy
-  # has_many :frecuent_users, source: :users
+  # has_and_belongs_to_many(:posts,
+  # :join_table => "post_connections",
+  # :foreign_key => "post_a_id",
+  # :association_foreign_key => "post_b_id")
+
+  has_many :users, dependent: :destroy
+  has_many :frecuent_users, source: :users
 
   after_initialize :set_defaults
 

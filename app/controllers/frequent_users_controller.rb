@@ -1,0 +1,2 @@
+class FrequentUsersController < ApplicationController
+end

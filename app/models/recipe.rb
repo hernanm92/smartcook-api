@@ -43,10 +43,10 @@ class Recipe < ActiveRecord::Base
   end
 
   def set_restrictions
-    self.vegetarian ||= vegetarian?
-    self.vegan ||= vegan?
-    self.celiac ||= celiac?
-    self.diabetic ||= diabetic?
+    # self.vegetarian ||= vegetarian?
+    # self.vegan ||= vegan?
+    # self.celiac ||= celiac?
+    # self.diabetic ||= diabetic?
   end
 
   def vegetarian?
