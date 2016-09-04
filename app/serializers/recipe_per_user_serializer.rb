@@ -12,6 +12,6 @@
 #  updated_at :datetime         not null
 #
 
-class RecipesPerUserSerializer < ActiveModel::Serializer
+class RecipePerUserSerializer < ActiveModel::Serializer
   attributes :id, :recipe_id, :user_id, :favorite, :owned, :vote
 end

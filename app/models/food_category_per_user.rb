@@ -9,7 +9,9 @@
 #  updated_at       :datetime         not null
 #
 
-class FoodCategoriesPerUser < ActiveRecord::Base
+class FoodCategoryPerUser < ActiveRecord::Base
+  self.table_name = 'food_categories_per_users'
+
   validates :category_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true, numericality: { only_integer: true }
 

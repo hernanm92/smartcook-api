@@ -11,7 +11,9 @@
 #  updated_at    :datetime         not null
 #
 
-class IngredientsPerRecipe < ActiveRecord::Base
+class IngredientPerRecipe < ActiveRecord::Base
+  self.table_name = 'ingredients_per_recipes'
+
   belongs_to :ingredient
   belongs_to :recipe
 

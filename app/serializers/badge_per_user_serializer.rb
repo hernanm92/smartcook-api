@@ -9,5 +9,6 @@
 #  updated_at :datetime         not null
 #
 
-class BadgesPerUser < ActiveRecord::Base
+class BadgePerUserSerializer < ActiveModel::Serializer
+  attributes :id
 end

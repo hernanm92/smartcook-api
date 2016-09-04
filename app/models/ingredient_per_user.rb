@@ -9,6 +9,6 @@
 #  updated_at    :datetime         not null
 #
 
-class IngredientsPerUserSerializer < ActiveModel::Serializer
-  attributes :id
+class IngredientPerUser < ActiveRecord::Base
+  self.table_name = 'ingredients_per_users'
 end

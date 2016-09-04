@@ -12,7 +12,9 @@
 #  updated_at :datetime         not null
 #
 
-class RecipesPerUser < ActiveRecord::Base
+class RecipePerUser < ActiveRecord::Base
+  self.table_name = 'recipes_per_users'
+
   belongs_to :recipes
   belongs_to :users
 

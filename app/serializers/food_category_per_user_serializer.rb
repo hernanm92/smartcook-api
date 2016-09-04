@@ -9,6 +9,6 @@
 #  updated_at       :datetime         not null
 #
 
-class FoodCategoriesPerUserSerializer < ActiveModel::Serializer
+class FoodCategoryPerUserSerializer < ActiveModel::Serializer
   attributes :id
 end

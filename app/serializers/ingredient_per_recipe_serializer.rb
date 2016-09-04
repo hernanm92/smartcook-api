@@ -11,6 +11,6 @@
 #  updated_at    :datetime         not null
 #
 
-class IngredientsPerRecipeSerializer < ActiveModel::Serializer
+class IngredientPerRecipeSerializer < ActiveModel::Serializer
   attributes :id, :ingredient_id, :recipe_id, :amount, :unit
 end

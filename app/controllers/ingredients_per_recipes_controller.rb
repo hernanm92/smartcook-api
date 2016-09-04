@@ -1,17 +1,17 @@
 class IngredientsPerRecipesController < ApplicationController
   def create
-    @ingredient_per_recipe = Ingredient.create!(ingredient_per_recipe_create_params)
+    @ingredient_per_recipe = IngredientPerRecipe.create!(ingredient_per_recipe_create_params)
     render json: @ingredient_per_recipe
   end
 
   def update
-    @ingredient_per_recipe = Ingredient.find_by!(ingredient_per_recipe_find_params)
+    @ingredient_per_recipe = IngredientPerRecipe.find_by!(ingredient_per_recipe_find_params)
     @ingredient_per_recipe.update! ingredient_per_recipe_update_params
     render json: @ingredient_per_recipe
   end
 
   def destroy
-    @ingredient_per_recipe = Ingredient.find_by!(ingredient_per_recipe_find_params)
+    @ingredient_per_recipe = IngredientPerRecipe.find_by!(ingredient_per_recipe_find_params)
     @ingredient_per_recipe.destroy!
     render json: @ingredient_per_recipe
   end
