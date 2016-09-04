@@ -22,6 +22,9 @@ class Recipe < ActiveRecord::Base
   has_many :ingredients_per_recipes, dependent: :destroy, class_name: 'IngredientPerRecipe'
   has_many :ingredients, through: :ingredients_per_recipes
 
+  has_many :recipes_per_users, dependent: :destroy, class_name: 'RecipePerUser'
+  has_many :users, through: :recipes_per_users
+
   validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
   validates :description, presence: true, length: { in: 5..200 }
   validates :steps, presence: true # , length: { in: 5..50 }

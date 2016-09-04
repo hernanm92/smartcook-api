@@ -1,19 +1,19 @@
 class RecipesPerUsersController < ApplicationController
   def create
-    @recipes_per_users = Ingredient.create!(recipes_per_users_create_params)
-    render json: @recipes_per_users
+    @recipe_per_user = RecipePerUser.create!(recipes_per_users_create_params)
+    render json: @recipe_per_user
   end
 
   def update
-    @recipes_per_users = Ingredient.find_by!(recipes_per_users_find_params)
-    @recipes_per_users.update! recipes_per_users_update_params
-    render json: @recipes_per_users
+    @recipe_per_user = RecipePerUser.find_by!(recipes_per_users_find_params)
+    @recipe_per_user.update! recipes_per_users_update_params
+    render json: @recipe_per_user
   end
 
   def destroy
-    @recipes_per_users = Ingredient.find_by!(recipes_per_users_find_params)
-    @recipes_per_users.destroy!
-    render json: @recipes_per_users
+    @recipe_per_user = RecipePerUser.find_by!(recipes_per_users_find_params)
+    @recipe_per_user.destroy!
+    render json: @recipe_per_user
   end
 
   private
@@ -21,7 +21,7 @@ class RecipesPerUsersController < ApplicationController
   def recipes_per_users_create_params
     {
       recipe_id: params.require(:recipe_id),
-      user_id: params.require(:user_id),
+      username: params.require(:username),
       favorite: params.require(:favorite),
       owned: params.require(:owned),
       vote: params[:vote]

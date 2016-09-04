@@ -19,6 +19,12 @@
 #
 
 class User < ActiveRecord::Base
+  has_many :recipes_per_users, dependent: :destroy, class_name: 'RecipePerUser'
+  has_many :recipes, through: :recipes_per_users
+
+  has_many :users, dependent: :destroy
+  has_many :frecuent_users, source: :users
+
   validates :username, presence: true, uniqueness: true, length: { in: 5..15 }
   validates :name, presence: true, length: { in: 5..30 }
   validates :email, presence: true, uniqueness: true, length: { in: 5..30 }
@@ -28,9 +34,6 @@ class User < ActiveRecord::Base
   # :join_table => "post_connections",
   # :foreign_key => "post_a_id",
   # :association_foreign_key => "post_b_id")
-
-  has_many :users, dependent: :destroy
-  has_many :frecuent_users, source: :users
 
   after_initialize :set_defaults
 

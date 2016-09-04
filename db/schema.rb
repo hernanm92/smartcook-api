@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160904202126) do
+ActiveRecord::Schema.define(version: 20160904230319) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20160904202126) do
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "username"
   end
 
   create_table "food_categories", force: :cascade do |t|
@@ -42,13 +43,16 @@ ActiveRecord::Schema.define(version: 20160904202126) do
     t.integer  "user_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+    t.string   "username"
   end
 
   create_table "frequent_users", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "frecuent_user_id"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.string   "username"
+    t.string   "frecuent_username"
   end
 
   create_table "ingredients", force: :cascade do |t|
@@ -81,6 +85,7 @@ ActiveRecord::Schema.define(version: 20160904202126) do
     t.integer  "user_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string   "username"
   end
 
   create_table "recipes", force: :cascade do |t|
@@ -107,6 +112,7 @@ ActiveRecord::Schema.define(version: 20160904202126) do
     t.integer  "vote"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.string   "username"
   end
 
   create_table "sessions", force: :cascade do |t|
