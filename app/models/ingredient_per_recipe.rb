@@ -14,8 +14,8 @@
 class IngredientPerRecipe < ActiveRecord::Base
   self.table_name = 'ingredients_per_recipes'
 
-  belongs_to :ingredient
-  belongs_to :recipe
+  belongs_to :ingredient, class_name: 'Ingredient'
+  belongs_to :recipe, class_name: 'Recipe'
 
   validates :ingredient_id, presence: true, numericality: { only_integer: true }
   validates :recipe_id, presence: true, numericality: { only_integer: true }

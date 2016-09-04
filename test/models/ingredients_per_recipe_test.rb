@@ -13,7 +13,7 @@
 
 require 'test_helper'
 
-class IngredientsPerRecipeTest < ActiveSupport::TestCase
+class IngredientPerRecipeTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
