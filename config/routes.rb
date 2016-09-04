@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   put '/recipes_per_users', to: 'recipes_per_users#update'
+  delete '/recipes_per_users', to: 'recipes_per_users#destroy'
 
   resources :frequent_users, except: [:new, :edit]
   resources :badges_per_users, except: [:new, :edit]
