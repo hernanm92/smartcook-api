@@ -30,7 +30,8 @@ class RecipesPerUsersController < ApplicationController
 
   def recipes_per_users_find_params
     {
-      id: params.require(:id)
+      recipe_id: params.require(:recipe_id),
+      username: params.require(:username)
     }
   end
 
