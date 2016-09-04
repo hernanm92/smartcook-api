@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160828235153) do
+ActiveRecord::Schema.define(version: 20160904202126) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,10 +24,31 @@ ActiveRecord::Schema.define(version: 20160828235153) do
     t.datetime "updated_at",  null: false
   end
 
+  create_table "badges_per_users", force: :cascade do |t|
+    t.integer  "badge_id"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "food_categories", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "food_categories_per_users", force: :cascade do |t|
+    t.integer  "food_category_id"
+    t.integer  "user_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
+
+  create_table "frequent_users", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "frecuent_user_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "ingredients", force: :cascade do |t|
@@ -51,6 +72,13 @@ ActiveRecord::Schema.define(version: 20160828235153) do
     t.integer  "recipe_id"
     t.integer  "amount"
     t.string   "unit"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "ingredients_per_users", force: :cascade do |t|
+    t.integer  "ingredient_id"
+    t.integer  "user_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
@@ -102,9 +130,15 @@ ActiveRecord::Schema.define(version: 20160828235153) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "badges_per_users", "badges"
+  add_foreign_key "badges_per_users", "users"
+  add_foreign_key "food_categories_per_users", "food_categories"
+  add_foreign_key "food_categories_per_users", "users"
   add_foreign_key "ingredients", "food_categories"
   add_foreign_key "ingredients_per_recipes", "ingredients"
   add_foreign_key "ingredients_per_recipes", "recipes"
+  add_foreign_key "ingredients_per_users", "ingredients"
+  add_foreign_key "ingredients_per_users", "users"
   add_foreign_key "recipes_per_users", "recipes"
   add_foreign_key "recipes_per_users", "users"
 end

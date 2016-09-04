@@ -6,8 +6,5 @@ class CreateFrequentUsers < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-
-    add_foreign_key "frequent_users", "users"
-    add_foreign_key "frequent_users", "frequent_users"
   end
 end
