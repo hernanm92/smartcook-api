@@ -10,5 +10,5 @@
 #
 
 class FoodCategoryPerUserSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :food_category_id, :username
 end

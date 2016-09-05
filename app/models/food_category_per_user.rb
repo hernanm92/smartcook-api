@@ -12,11 +12,20 @@
 class FoodCategoryPerUser < ActiveRecord::Base
   self.table_name = 'food_categories_per_users'
 
-  validates :category_id, presence: true, numericality: { only_integer: true }
-  validates :user_id, presence: true, numericality: { only_integer: true }
+  belongs_to :food_category, class_name: 'FoodCategory'
+  belongs_to :user, class_name: 'User'
 
-  def self.find_by!(params)
-    params[:id] = params.delete(:id) if params[:id]
+  validates :food_category_id, presence: true, numericality: { only_integer: true }
+  validates :user_id, presence: true, numericality: { only_integer: true }
+  validates :username, presence: true
+
+  def update!(params)
+    params[:user_id] = user_id
+    super params
+  end
+
+  def self.create!(params)
+    params[:user_id] = User.find_by_username(params[:username]).id
     super params
   end
 end

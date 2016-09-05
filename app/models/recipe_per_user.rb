@@ -20,7 +20,7 @@ class RecipePerUser < ActiveRecord::Base
 
   validates :recipe_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true, numericality: { only_integer: true }
-  validates :user_id, presence: true
+  validates :username, presence: true
   validates :favorite, inclusion: { in: [true, false] }
   validates :owned, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }

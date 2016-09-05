@@ -22,6 +22,9 @@ class User < ActiveRecord::Base
   has_many :recipes_per_users, dependent: :destroy, class_name: 'RecipePerUser'
   has_many :recipes, through: :recipes_per_users
 
+  has_many :food_categories_per_users, dependent: :destroy, class_name: 'FoodCategoryPerUser'
+  has_many :food_categories, through: :food_categories_per_users, class_name: 'FoodCategory'
+
   has_many :users, dependent: :destroy
   has_many :frecuent_users, source: :users
 

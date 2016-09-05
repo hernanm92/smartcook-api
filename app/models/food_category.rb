@@ -9,12 +9,10 @@
 #
 
 class FoodCategory < ActiveRecord::Base
-  validates :name, presence: true, uniqueness: true, length: { in: 5..15 }
+  has_many :food_categories_per_users, dependent: :destroy, class_name: 'FoodCategoryPerUser'
+  has_many :users, through: :food_categories_per_users
 
   has_many :ingredients, dependent: :destroy
 
-  def self.find_by!(params)
-    params[:id] = params.delete(:id) if params[:id]
-    super params
-  end
+  validates :name, presence: true, uniqueness: true, length: { in: 5..15 }
 end
