@@ -1,6 +1,10 @@
 class RecipesController < ApplicationController
   def index
     @recipes = Recipe.all
+    @recipes = @recipes.where(vegan: params[:vegan]) if params[:vegan]
+    @recipes = @recipes.where(vegetarian: params[:vegetarian]) if params[:vegetarian]
+    @recipes = @recipes.where(celiac: params[:celiac]) if params[:celiac]
+    @recipes = @recipes.where(diabetic: params[:diabetic]) if params[:diabetic]
     render json: @recipes
   end
 
