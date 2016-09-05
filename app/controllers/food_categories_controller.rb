@@ -1,6 +1,7 @@
 class FoodCategoriesController < ApplicationController
   def index
-    @food_categories = FoodCategory.all
+    @food_categories = FoodCategoryPerUser.where(username: params[:username]).map(&:food_category) if params[:username]
+    @food_categories = FoodCategory.all unless @food_categories
     render json: @food_categories
   end
 
