@@ -40,9 +40,4 @@ class Ingredient < ActiveRecord::Base
   validates :fats, presence: true, numericality: true
 
   validates :food_category, presence: true
-
-  def self.find_by!(params)
-    params[:id] = params.delete(:id) if params[:id]
-    super params
-  end
 end

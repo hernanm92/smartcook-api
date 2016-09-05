@@ -10,5 +10,5 @@
 #
 
 class BadgePerUserSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :badge_id, :username
 end

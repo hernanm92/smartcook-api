@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   put '/ingredients_per_users', to: 'ingredients_per_users#update'
   delete '/ingredients_per_users', to: 'ingredients_per_users#destroy'
 
+  put '/badges_per_users', to: 'badges_per_users#update'
+  delete '/badges_per_users', to: 'badges_per_users#destroy'
+
   resources :frequent_users, except: [:new, :edit]
   resources :badges_per_users, except: [:new, :edit]
   resources :ingredients_per_users, except: [:new, :edit]

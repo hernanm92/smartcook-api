@@ -11,11 +11,9 @@
 #
 
 class Badge < ActiveRecord::Base
-  validates :name, presence: true, uniqueness: true, length: { in: 5..15 }
-  validates :description, presence: true, length: { in: 5..100 }
+  has_many :badges_per_users, dependent: :destroy, class_name: 'BadgePerUser'
+  has_many :users, through: :badges_per_users
 
-  def self.find_by!(params)
-    params[:id] = params.delete(:id) if params[:id]
-    super params
-  end
+  validates :name, presence: true, uniqueness: true, length: { in: 5..20 }
+  validates :description, presence: true, length: { in: 5..100 }
 end
