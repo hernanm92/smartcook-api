@@ -1,6 +1,7 @@
 class IngredientsController < ApplicationController
   def index
-    @ingredients = Ingredient.all
+    @ingredients = IngredientPerRecipe.where(recipe_id: params[:recipe_id]).map(&:ingredient) if params[:recipe_id]
+    @ingredients = Ingredient.all unless @ingredients
     render json: @ingredients
   end
 
