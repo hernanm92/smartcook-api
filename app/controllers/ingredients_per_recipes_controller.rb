@@ -29,7 +29,8 @@ class IngredientsPerRecipesController < ApplicationController
 
   def ingredient_per_recipe_find_params
     {
-      id: params.require(:id)
+      ingredient_id: params.require(:ingredient_id),
+      recipe_id: params.require(:recipe_id)
     }
   end
 

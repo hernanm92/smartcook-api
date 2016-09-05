@@ -21,8 +21,8 @@ class RecipePerUser < ActiveRecord::Base
   validates :recipe_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true
-  validates :favorite, presence: true, inclusion: { in: [true, false] }
-  validates :owned, presence: true, inclusion: { in: [true, false] }
+  validates :favorite, inclusion: { in: [true, false] }
+  validates :owned, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
   def update!(params)
