@@ -10,6 +10,7 @@
 #  vote       :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  username   :string
 #
 
 class RecipePerUser < ActiveRecord::Base
