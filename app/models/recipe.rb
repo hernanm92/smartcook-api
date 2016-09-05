@@ -30,13 +30,7 @@ class Recipe < ActiveRecord::Base
   validates :steps, presence: true # , length: { in: 5..50 }
 
   after_initialize :set_defaults
-  after_create :set_restrictions
-  after_update :set_restrictions # solo si se modifican ingredientes
-
-  def self.find_by!(params)
-    params[:username] = params.delete(:id) if params[:id]
-    super params
-  end
+  before_create :set_restrictions
 
   private
 
@@ -46,25 +40,9 @@ class Recipe < ActiveRecord::Base
   end
 
   def set_restrictions
-    # self.vegetarian ||= vegetarian?
-    # self.vegan ||= vegan?
-    # self.celiac ||= celiac?
-    # self.diabetic ||= diabetic?
-  end
-
-  def vegetarian?
-    ingredients.all?(&:vegetarian)
-  end
-
-  def vegan?
-    ingredients.all?(&:vegan)
-  end
-
-  def celiac?
-    ingredients.all?(&:celiac)
-  end
-
-  def diabetic?
-    ingredients.all?(&:diabetic)
+    self.vegetarian = true
+    self.vegan = true
+    self.celiac = true
+    self.diabetic = true
   end
 end
