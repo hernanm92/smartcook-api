@@ -31,8 +31,11 @@ class User < ActiveRecord::Base
   has_many :badges_per_users, dependent: :destroy, class_name: 'BadgePerUser'
   has_many :badges, through: :badges_per_users
 
-  has_many :users, dependent: :destroy
-  has_many :frecuent_users, source: :users
+  # has_many :users, dependent: :destroy
+  # has_many :frequent_users, source: :users
+
+  has_many :frequent_users, dependent: :destroy, class_name: 'FrequentUser'
+  has_many :users, through: :frequent_users
 
   validates :username, presence: true, uniqueness: true, length: { in: 5..15 }
   validates :name, presence: true, length: { in: 5..30 }

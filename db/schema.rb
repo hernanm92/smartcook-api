@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160904230319) do
+ActiveRecord::Schema.define(version: 20160905024829) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,11 +48,11 @@ ActiveRecord::Schema.define(version: 20160904230319) do
 
   create_table "frequent_users", force: :cascade do |t|
     t.integer  "user_id"
-    t.integer  "frecuent_user_id"
+    t.integer  "frequent_user_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
     t.string   "username"
-    t.string   "frecuent_username"
+    t.string   "frequent_username"
   end
 
   create_table "ingredients", force: :cascade do |t|
