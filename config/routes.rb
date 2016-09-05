@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   put '/food_categories_per_users', to: 'food_categories_per_users#update'
   delete '/food_categories_per_users', to: 'food_categories_per_users#destroy'
 
+  put '/ingredients_per_users', to: 'ingredients_per_users#update'
+  delete '/ingredients_per_users', to: 'ingredients_per_users#destroy'
+
   resources :frequent_users, except: [:new, :edit]
   resources :badges_per_users, except: [:new, :edit]
   resources :ingredients_per_users, except: [:new, :edit]

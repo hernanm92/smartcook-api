@@ -10,5 +10,5 @@
 #
 
 class IngredientPerUserSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :username, :ingredient_id
 end

@@ -24,6 +24,9 @@ class Ingredient < ActiveRecord::Base
   has_many :ingredients_per_recipes, dependent: :destroy, class_name: 'IngredientPerRecipe'
   has_many :recipes, through: :ingredients_per_recipes
 
+  has_many :ingredients_per_users, dependent: :destroy, class_name: 'IngredientPerUser'
+  has_many :users, through: :ingredients_per_users
+
   validates :name, presence: true, uniqueness: true, length: { in: 3..30 }
   validates :image_url, presence: true, uniqueness: true
   validates :food_category_id, presence: true, numericality: { only_integer: true }
