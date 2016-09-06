@@ -1,10 +1,11 @@
 class RecipesController < ApplicationController
   def index
-    @recipes = Recipe.all
-    @recipes = @recipes.where(vegan: params[:vegan]) if params[:vegan]
-    @recipes = @recipes.where(vegetarian: params[:vegetarian]) if params[:vegetarian]
-    @recipes = @recipes.where(celiac: params[:celiac]) if params[:celiac]
-    @recipes = @recipes.where(diabetic: params[:diabetic]) if params[:diabetic]
+    @recipes = Recipe.where(vegan: params[:vegan]) if params[:vegan]
+    @recipes = Recipe.where(vegetarian: params[:vegetarian]) if params[:vegetarian]
+    @recipes = Recipe.where(celiac: params[:celiac]) if params[:celiac]
+    @recipes = Recipe.where(diabetic: params[:diabetic]) if params[:diabetic]
+    @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username]
+    @recipes = Recipe.all unless @recipes
     render json: @recipes
   end
 

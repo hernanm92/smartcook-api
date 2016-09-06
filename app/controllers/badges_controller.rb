@@ -1,6 +1,7 @@
 class BadgesController < ApplicationController
   def index
-    @badges = Badge.all
+    @badges = BadgePerUser.where(username: params[:username]).map(&:badge) if params[:username]
+    @badges = Badge.all unless @badges
     render json: @badges
   end
 
