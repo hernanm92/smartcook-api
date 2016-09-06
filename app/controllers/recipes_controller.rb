@@ -31,6 +31,11 @@ class RecipesController < ApplicationController
     render json: @recipe
   end
 
+  def search
+    @recipes = Recipe.search recipe_search_params
+    render json: @recipes
+  end
+
   private
 
   def recipe_create_params
@@ -52,5 +57,16 @@ class RecipesController < ApplicationController
   def recipe_update_params
     params.slice(:name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic, :steps, :tips)
           .permit!
+  end
+
+  def recipe_search_params
+    {
+      ingredients: params.require(:ingredients),
+      food_categories: params[:food_categories],
+      vegan: params[:vegan],
+      vegetarian: params[:vegetarian],
+      celiac: params[:celiac],
+      diabetic: params[:diabetic]
+    }
   end
 end
