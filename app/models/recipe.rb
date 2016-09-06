@@ -69,10 +69,7 @@ class Recipe < ActiveRecord::Base
   end
 
   def best_recipes(recipes, restrictions)
-    recipes.map do |recipe|
-      { recipe: recipe, weight: recipe_weight(recipe, restrictions[:ingredients]) }
-    end
-    # podria hacer un order directamente en vez de map
+    recipes.sort_by { |recipe| -recipe_weight(recipe, restrictions[:ingredients]) }.first(10)
   end
 
   def recipe_weight(recipe, ingredients)
