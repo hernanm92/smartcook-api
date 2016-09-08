@@ -20,6 +20,8 @@ class RecipePerUser < ActiveRecord::Base
   belongs_to :recipe, class_name: 'Recipe'
   belongs_to :user, class_name: 'User'
 
+  after_initialize :set_defaults
+
   validates :recipe_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true, numericality: { only_integer: true }
   validates :username, presence: true
@@ -36,5 +38,11 @@ class RecipePerUser < ActiveRecord::Base
   def self.create!(params)
     params[:user_id] = User.find_by_username(params[:username]).id
     super params
+  end
+
+  private
+
+  def set_defaults
+    self.like = false if like.nil?
   end
 end
