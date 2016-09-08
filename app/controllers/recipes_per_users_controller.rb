@@ -1,4 +1,9 @@
 class RecipesPerUsersController < ApplicationController
+  def show
+    @recipe_per_user = RecipePerUser.find_by!(recipes_per_users_find_params)
+    render json: @recipe_per_user
+  end
+
   def create
     @recipe_per_user = RecipePerUser.create!(recipes_per_users_create_params)
     render json: @recipe_per_user

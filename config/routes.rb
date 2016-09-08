@@ -19,6 +19,9 @@ Rails.application.routes.draw do
   put '/frequent_users', to: 'frequent_users#update'
   delete '/frequent_users', to: 'frequent_users#destroy'
 
+  get '/ingredients_per_recipes/recipe/:recipe_id/ingredient/:ingredient_id', to: 'ingredients_per_recipes#show'
+  get '/recipes_per_users/user/:username/recipe/:recipe_id', to: 'recipes_per_users#show'
+
   resources :frequent_users, except: [:new, :edit]
   resources :badges_per_users, except: [:new, :edit]
   resources :ingredients_per_users, except: [:new, :edit]

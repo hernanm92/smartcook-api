@@ -1,4 +1,9 @@
 class IngredientsPerRecipesController < ApplicationController
+  def show
+    @ingredient_per_recipe = IngredientPerRecipe.find_by!(ingredient_per_recipe_find_params)
+    render json: @ingredient_per_recipe
+  end
+
   def create
     @ingredient_per_recipe = IngredientPerRecipe.create!(ingredient_per_recipe_create_params)
     render json: @ingredient_per_recipe
