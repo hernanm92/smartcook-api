@@ -6,11 +6,12 @@
 #  recipe_id  :integer
 #  user_id    :integer
 #  favorite   :boolean          default(FALSE)
-#  owned      :boolean          default(FALSE)
+#  owner      :boolean          default(FALSE)
 #  vote       :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  username   :string
+#  like       :boolean
 #
 
 class RecipePerUser < ActiveRecord::Base
@@ -23,7 +24,8 @@ class RecipePerUser < ActiveRecord::Base
   validates :user_id, presence: true, numericality: { only_integer: true }
   validates :username, presence: true
   validates :favorite, inclusion: { in: [true, false] }
-  validates :owned, inclusion: { in: [true, false] }
+  validates :owner, inclusion: { in: [true, false] }
+  validates :like, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
   def update!(params)

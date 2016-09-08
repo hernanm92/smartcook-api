@@ -8,8 +8,9 @@
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #  username      :string
+#  excluded      :boolean
 #
 
 class IngredientPerUserSerializer < ActiveModel::Serializer
-  attributes :username, :ingredient_id
+  attributes :username, :ingredient_id, :excluded
 end

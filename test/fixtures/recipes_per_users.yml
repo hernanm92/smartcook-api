@@ -6,11 +6,12 @@
 #  recipe_id  :integer
 #  user_id    :integer
 #  favorite   :boolean          default(FALSE)
-#  owned      :boolean          default(FALSE)
+#  owner      :boolean          default(FALSE)
 #  vote       :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  username   :string
+#  like       :boolean
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

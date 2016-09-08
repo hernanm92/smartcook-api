@@ -8,6 +8,7 @@
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
 #  username      :string
+#  excluded      :boolean
 #
 
 class IngredientPerUser < ActiveRecord::Base
@@ -19,6 +20,7 @@ class IngredientPerUser < ActiveRecord::Base
   validates :ingredient_id, presence: true, numericality: { only_integer: true }
   validates :user_id, presence: true, numericality: { only_integer: true }
   validates :username, presence: true
+  validates :excluded, inclusion: { in: [true, false] }
 
   def update!(params)
     params[:user_id] = user_id

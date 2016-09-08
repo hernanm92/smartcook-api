@@ -21,7 +21,8 @@ class IngredientsPerUsersController < ApplicationController
   def ingredients_per_users_create_params
     {
       ingredient_id: params.require(:ingredient_id),
-      username: params.require(:username)
+      username: params.require(:username),
+      excluded: params[:excluded]
     }
   end
 
@@ -33,6 +34,6 @@ class IngredientsPerUsersController < ApplicationController
   end
 
   def ingredients_per_users_update_params
-    {}
+    params.slice(:excluded).permit!
   end
 end
