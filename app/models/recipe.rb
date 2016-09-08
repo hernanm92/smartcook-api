@@ -64,9 +64,12 @@ class Recipe < ActiveRecord::Base
     food_categories_rectrictions_ids = restrictions[:food_categories].map { |food_category| food_category[:id] }
 
     recipes.filter do |recipe|
-      food_categories_rectrictions_ids.exclude? recipe.food_category_id # TODO: food_category_id en realidad de los ingredientes
-      # validar que ningun ingrediente de la receta tenga esa categoria alimenticia
+      !food_categories_in_common?(food_categories_rectrictions_ids, recipe.ingredients.map(&:food_category_id))
     end
+  end
+
+  def food_categories_in_common?(food_categories_rectrictions_ids, ingredients_food_categories_ids)
+    (food_categories_rectrictions_ids & ingredients_food_categories_ids).empty?
   end
 
   def best_recipes(recipes, restrictions)
