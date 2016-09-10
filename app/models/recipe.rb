@@ -34,6 +34,8 @@ class Recipe < ActiveRecord::Base
 
   def self.search(restrictions)
     recipes = filter_food_restrictions restrictions
+    p '------------------'
+    p recipes
     recipes = filter_food_categories recipes, restrictions
     best_recipes recipes, restrictions
   end
@@ -53,11 +55,12 @@ class Recipe < ActiveRecord::Base
   end
 
   def self.filter_food_restrictions(restrictions)
-    vegan = restrictions[:vegan] || nil
-    vegetarian = restrictions[:vegetarian] || nil
-    celiac = restrictions[:celiac] || nil
-    diabetic = restrictions[:diabetic] || nil
-    Recipe.where(vegan: vegan, vegetarian: vegetarian, celiac: celiac, diabetic: diabetic)
+    recipes = Recipe.all
+    recipes = recipes.where(vegan: true) if restrictions[:vegan]
+    recipes = recipes.where(vegetarian: true) if restrictions[:vegetarian]
+    recipes = recipes.where(celiac: true) if restrictions[:celiac]
+    recipes = recipes.where(diabetic: true) if restrictions[:diabetic]
+    recipes
   end
 
   def self.filter_food_categories(recipes, restrictions)
