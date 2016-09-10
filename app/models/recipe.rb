@@ -34,8 +34,6 @@ class Recipe < ActiveRecord::Base
 
   def self.search(restrictions)
     recipes = filter_food_restrictions restrictions
-    p '------------------'
-    p recipes
     recipes = filter_food_categories recipes, restrictions
     best_recipes recipes, restrictions
   end
