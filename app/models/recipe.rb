@@ -33,7 +33,6 @@ class Recipe < ActiveRecord::Base
   before_create :set_restrictions
 
   def self.search(restrictions)
-    p restrictions
     recipes = filter_food_restrictions restrictions
     recipes = filter_food_categories recipes, restrictions
     best_recipes recipes, restrictions
