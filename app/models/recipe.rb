@@ -34,7 +34,7 @@ class Recipe < ActiveRecord::Base
 
   def self.search(restrictions)
     recipes = filter_food_restrictions restrictions
-    recipes = filter_food_categories recipes, restrictions
+    recipes = filter_food_categories recipes, restrictions if restrictions[:food_categories]
     best_recipes recipes, restrictions
   end
 
@@ -79,7 +79,7 @@ class Recipe < ActiveRecord::Base
 
   def self.recipe_weight(recipe, ingredients)
     recipe_ingredients_ids = recipe.ingredients.map(&:id)
-    ingredients_ids = ingredients.map { |ingredient| ingredient[:id] }
+    ingredients_ids = JSON.parse(ingredients)
 
     ingredients_matchs = (recipe_ingredients_ids & ingredients_ids).size # ingredientes que coinciden con la receta
     ingredients_left = (recipe_ingredients_ids - ingredients_ids).size # ingredientes que le sobran a la receta
