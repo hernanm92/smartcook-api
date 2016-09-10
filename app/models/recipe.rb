@@ -33,6 +33,7 @@ class Recipe < ActiveRecord::Base
   before_create :set_restrictions
 
   def self.search(restrictions)
+    p restrictions
     recipes = filter_food_restrictions restrictions
     recipes = filter_food_categories recipes, restrictions
     best_recipes recipes, restrictions
@@ -52,31 +53,31 @@ class Recipe < ActiveRecord::Base
     self.diabetic = true
   end
 
-  def filter_food_restrictions(restrictions)
+  def self.filter_food_restrictions(restrictions)
     vegan = restrictions[:vegan] || nil
     vegetarian = restrictions[:vegetarian] || nil
     celiac = restrictions[:celiac] || nil
     diabetic = restrictions[:diabetic] || nil
-    Recipes.where(vegan: vegan, vegetarian: vegetarian, celiac: celiac, diabetic: diabetic)
+    Recipe.where(vegan: vegan, vegetarian: vegetarian, celiac: celiac, diabetic: diabetic)
   end
 
-  def filter_food_categories(recipes, restrictions)
+  def self.filter_food_categories(recipes, restrictions)
     food_categories_rectrictions_ids = restrictions[:food_categories].map { |food_category| food_category[:id] }
 
-    recipes.filter do |recipe|
+    recipes.to_a.select do |recipe|
       !food_categories_in_common?(food_categories_rectrictions_ids, recipe.ingredients.map(&:food_category_id))
     end
   end
 
-  def food_categories_in_common?(food_categories_rectrictions_ids, ingredients_food_categories_ids)
+  def self.food_categories_in_common?(food_categories_rectrictions_ids, ingredients_food_categories_ids)
     (food_categories_rectrictions_ids & ingredients_food_categories_ids).empty?
   end
 
-  def best_recipes(recipes, restrictions)
+  def self.best_recipes(recipes, restrictions)
     recipes.sort_by { |recipe| -recipe_weight(recipe, restrictions[:ingredients]) }.first(10)
   end
 
-  def recipe_weight(recipe, ingredients)
+  def self.recipe_weight(recipe, ingredients)
     recipe_ingredients_ids = recipe.ingredients.map(&:id)
     ingredients_ids = ingredients.map { |ingredient| ingredient[:id] }
 
