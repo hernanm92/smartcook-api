@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   def index
-    @users = User.all
+    @users = User.find_by_username(params[:username]) if params[:username]
+    @users = User.all unless @users
     render json: @users
   end
 
