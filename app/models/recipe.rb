@@ -62,10 +62,10 @@ class Recipe < ActiveRecord::Base
   end
 
   def self.filter_food_categories(recipes, restrictions)
-    food_categories_rectrictions_ids = restrictions[:food_categories].map { |food_category| food_category[:id] }
+    food_categories_rectrictions_ids = JSON.parse(restrictions[:food_categories])
 
     recipes.to_a.select do |recipe|
-      !food_categories_in_common?(food_categories_rectrictions_ids, recipe.ingredients.map(&:food_category_id))
+      food_categories_in_common?(food_categories_rectrictions_ids, recipe.ingredients.map(&:food_category_id))
     end
   end
 
