@@ -1,4 +1,8 @@
 class RecipesPerUsersController < ApplicationController
+  def index
+    @recipe_per_user = RecipePerUser.where(:username => params[:username],:favorite => true) if params[:username]
+    render json: @recipe_per_user
+  end
   def show
     @recipe_per_user = RecipePerUser.find_by!(recipes_per_users_find_params)
     render json: @recipe_per_user
