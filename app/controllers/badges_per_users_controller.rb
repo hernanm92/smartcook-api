@@ -1,4 +1,9 @@
 class BadgesPerUsersController < ApplicationController
+  def index
+    @badges_per_user = BadgePerUser.where(username: params[:username]) if params[:username]
+    @badges_per_user = BadgePerUser.all unless @badges_per_user
+    render json: @badges_per_user
+  end
   def create
     @badge_per_user = BadgePerUser.create!(badges_per_users_create_params)
     render json: @badge_per_user

@@ -32,7 +32,8 @@ class BadgesController < ApplicationController
   def badge_create_params
     {
       name: params.require(:name),
-      description: params.require(:description)
+      description: params.require(:description),
+      image_url: params.require(:image_url)
     }
   end
 
@@ -43,6 +44,6 @@ class BadgesController < ApplicationController
   end
 
   def badge_update_params
-    params.slice(:name, :description).permit!
+    params.slice(:name, :description, :image_url).permit!
   end
 end
