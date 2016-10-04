@@ -57,7 +57,7 @@ class RecipesController < ApplicationController
   end
 
   def recipe_update_params
-    params.slice(:name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic, :steps, :tips)
+    params.slice(:name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic, :steps, :tips, :original)
           .permit!
   end
 
