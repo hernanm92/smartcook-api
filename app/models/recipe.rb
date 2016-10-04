@@ -43,6 +43,7 @@ class Recipe < ActiveRecord::Base
   def set_defaults
     self.steps ||= []
     self.tips ||= []
+    self.validated = false if validated.nil?
   end
 
   def set_restrictions
