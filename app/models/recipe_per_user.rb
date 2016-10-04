@@ -46,5 +46,6 @@ class RecipePerUser < ActiveRecord::Base
 
   def set_defaults
     self.like = false if like.nil?
+    self.validated = false if validated.nil?
   end
 end
