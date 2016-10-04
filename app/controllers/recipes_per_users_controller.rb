@@ -1,9 +1,10 @@
 class RecipesPerUsersController < ApplicationController
   def index
-    @recipe_per_user = RecipePerUser.where(:username => params[:username],:recipe_id => params[:recipe_id]) if params[:recipe_id]
-    @recipe_per_user = RecipePerUser.where(:username => params[:username],:favorite => true) if params[:username] unless @recipe_per_user
+    @recipe_per_user = RecipePerUser.where(username: params[:username], recipe_id: params[:recipe_id]) if params[:recipe_id]
+    @recipe_per_user = RecipePerUser.where(username: params[:username], favorite: true) if params[:username] unless @recipe_per_user
     render json: @recipe_per_user
   end
+
   def show
     @recipe_per_user = RecipePerUser.find_by!(recipes_per_users_find_params)
     render json: @recipe_per_user
@@ -35,7 +36,8 @@ class RecipesPerUsersController < ApplicationController
       favorite: params.require(:favorite),
       owner: params.require(:owner),
       like: params[:like],
-      vote: params[:vote]
+      vote: params[:vote],
+      validated: params[:validated]
     }
   end
 
@@ -47,6 +49,6 @@ class RecipesPerUsersController < ApplicationController
   end
 
   def recipes_per_users_update_params
-    params.slice(:favorite, :vote, :like).permit!
+    params.slice(:favorite, :vote, :like, :validated).permit!
   end
 end

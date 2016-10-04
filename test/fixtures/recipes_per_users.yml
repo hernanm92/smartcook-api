@@ -12,6 +12,7 @@
 #  updated_at :datetime         not null
 #  username   :string
 #  like       :boolean
+#  validated  :boolean
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

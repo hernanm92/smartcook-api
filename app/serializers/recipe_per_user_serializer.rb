@@ -12,8 +12,9 @@
 #  updated_at :datetime         not null
 #  username   :string
 #  like       :boolean
+#  validated  :boolean
 #
 
 class RecipePerUserSerializer < ActiveModel::Serializer
-  attributes :recipe_id, :username, :favorite, :owner, :vote, :like
+  attributes :recipe_id, :username, :favorite, :owner, :vote, :like, :validated
 end
