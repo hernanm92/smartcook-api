@@ -12,6 +12,7 @@
 #  updated_at :datetime         not null
 #  username   :string
 #  like       :boolean
+#  validated  :boolean
 #
 
 class RecipePerUser < ActiveRecord::Base
@@ -28,6 +29,7 @@ class RecipePerUser < ActiveRecord::Base
   validates :favorite, inclusion: { in: [true, false] }
   validates :owner, inclusion: { in: [true, false] }
   validates :like, inclusion: { in: [true, false] }
+  validates :validated, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
   def update!(params)
@@ -44,5 +46,6 @@ class RecipePerUser < ActiveRecord::Base
 
   def set_defaults
     self.like = false if like.nil?
+    self.validated = false if validated.nil?
   end
 end

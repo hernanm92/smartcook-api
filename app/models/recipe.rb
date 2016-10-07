@@ -16,6 +16,7 @@
 #  updated_at  :datetime         not null
 #  steps       :string           default([]), is an Array
 #  tips        :string           default([]), is an Array
+#  original    :integer
 #
 
 class Recipe < ActiveRecord::Base
@@ -43,6 +44,7 @@ class Recipe < ActiveRecord::Base
   def set_defaults
     self.steps ||= []
     self.tips ||= []
+    self.validated = false if validated.nil?
   end
 
   def set_restrictions

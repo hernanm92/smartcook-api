@@ -4,8 +4,11 @@ class RecipesController < ApplicationController
     @recipes = Recipe.where(vegetarian: params[:vegetarian]) if params[:vegetarian]
     @recipes = Recipe.where(celiac: params[:celiac]) if params[:celiac]
     @recipes = Recipe.where(diabetic: params[:diabetic]) if params[:diabetic]
-    @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username]
+    @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated].nil?
+    @recipes = RecipePerUser.where(username: params[:username], favorite: true).map(&:recipe) if params[:username] && params[:favorite] == 'true'
+    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username], validated: true).map(&:recipe) if params[:username] && params[:validated] == 'false'
     @recipes = Recipe.all unless @recipes
+    @recipes = @recipes.where(original: nil) # las que no fueron editadas
     render json: @recipes
   end
 
@@ -55,7 +58,7 @@ class RecipesController < ApplicationController
   end
 
   def recipe_update_params
-    params.slice(:name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic, :steps, :tips)
+    params.slice(:name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic, :steps, :tips, :original)
           .permit!
   end
 

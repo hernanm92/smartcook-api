@@ -16,9 +16,10 @@
 #  updated_at  :datetime         not null
 #  steps       :string           default([]), is an Array
 #  tips        :string           default([]), is an Array
+#  original    :integer
 #
 
 class RecipeSerializer < ActiveModel::Serializer
   attributes :id, :name, :image_url, :stars, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic,
-             :steps, :tips
+             :steps, :tips, :original
 end
