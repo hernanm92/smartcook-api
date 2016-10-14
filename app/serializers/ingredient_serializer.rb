@@ -20,5 +20,5 @@
 
 class IngredientSerializer < ActiveModel::Serializer
   attributes :id, :name, :image_url, :food_category_id, :vegetarian, :vegan, :celiac, :diabetic,
-             :calories, :proteins, :carbohydrates, :fats
+             :calories, :proteins, :carbohydrates, :fats, :name_id
 end

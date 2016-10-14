@@ -16,6 +16,7 @@
 #  fats             :integer
 #  created_at       :datetime         not null
 #  updated_at       :datetime         not null
+#  name_id          :string
 #
 
 class Ingredient < ActiveRecord::Base
@@ -40,4 +41,5 @@ class Ingredient < ActiveRecord::Base
   validates :fats, presence: true, numericality: true
 
   validates :food_category, presence: true
+  validates :name_id, presence:true, uniqueness: true
 end

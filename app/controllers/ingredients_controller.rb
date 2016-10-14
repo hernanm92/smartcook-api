@@ -42,7 +42,8 @@ class IngredientsController < ApplicationController
       calories: params.require(:calories),
       proteins: params.require(:proteins),
       carbohydrates: params.require(:carbohydrates),
-      fats: params.require(:fats)
+      fats: params.require(:fats),
+      name_id: params.require(:name_id)
     }
   end
 
