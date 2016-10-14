@@ -1,7 +1,8 @@
 class RecipesPerUsersController < ApplicationController
   def index
-    @recipe_per_user = RecipePerUser.where(username: params[:username], recipe_id: params[:recipe_id]) if params[:recipe_id]
-    @recipe_per_user = RecipePerUser.where(username: params[:username], favorite: true) if params[:username] unless @recipe_per_user
+    # @recipe_per_user = RecipePerUser.where(:username => params[:username],:recipe_id => params[:recipe_id]) if params[:recipe_id]
+    # @recipe_per_user = RecipePerUser.where(:username => params[:username],:favorite => true) if params[:username] unless @recipe_per_user
+    @recipe_per_user = RecipePerUser.where(:username => params[:username])
     render json: @recipe_per_user
   end
 
