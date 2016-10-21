@@ -1,9 +1,9 @@
 class RecipesController < ApplicationController
   def index
-    @recipes = Recipe.where(vegan: params[:vegan]) if params[:vegan]
-    @recipes = Recipe.where(vegetarian: params[:vegetarian]) if params[:vegetarian]
-    @recipes = Recipe.where(celiac: params[:celiac]) if params[:celiac]
-    @recipes = Recipe.where(diabetic: params[:diabetic]) if params[:diabetic]
+    @recipes = Recipe.where(vegan: params[:vegan], validated: true) if params[:vegan]
+    @recipes = Recipe.where(vegetarian: params[:vegetarian], validated: true) if params[:vegetarian]
+    @recipes = Recipe.where(celiac: params[:celiac], validated: true) if params[:celiac]
+    @recipes = Recipe.where(diabetic: params[:diabetic], validated: true) if params[:diabetic]
     @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated].nil?
     @recipes = RecipePerUser.where(username: params[:username], favorite: true).map(&:recipe) if params[:username] && params[:favorite] == 'true'
     @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username], validated: true).map(&:recipe) if params[:username] && params[:validated] == 'false'
