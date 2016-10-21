@@ -35,7 +35,8 @@ class User < ActiveRecord::Base
   # has_many :frequent_users, source: :users
 
   has_many :frequent_users, dependent: :destroy, class_name: 'FrequentUser'
-  has_many :users, through: :frequent_users
+  has_many :users, through: :frequent_users, source: :frequent_user
+  # se trae a los frequent users de la tabla FrequentUser
 
   validates :username, presence: true, uniqueness: true, length: { in: 5..15 }
   validates :name, presence: true, length: { in: 5..30 }
