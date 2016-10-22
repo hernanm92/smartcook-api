@@ -15,7 +15,6 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  steps       :string           default([]), is an Array
-#  tips        :string           default([]), is an Array
 #  original    :integer
 #
 

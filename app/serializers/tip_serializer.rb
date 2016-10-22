@@ -2,12 +2,12 @@
 #
 # Table name: tips
 #
-#  id         :integer          not null, primary key
-#  username   :string
-#  recipe_id  :integer
+#  id          :integer          not null, primary key
 #  description :text
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
+#  recipe_id   :integer
+#  username    :string
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
 #
 
 class TipSerializer < ActiveModel::Serializer

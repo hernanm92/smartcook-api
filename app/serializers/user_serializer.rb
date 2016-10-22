@@ -16,8 +16,9 @@
 #  diabetic   :boolean
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  admin      :boolean
 #
 
 class UserSerializer < ActiveModel::Serializer
-  attributes :username, :name, :email, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic
+  attributes :username, :name, :email, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic, :admin
 end
