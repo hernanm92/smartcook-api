@@ -63,5 +63,6 @@ class User < ActiveRecord::Base
     self.vegan = false if vegan.nil?
     self.celiac = false if celiac.nil?
     self.diabetic = false if diabetic.nil?
+    self.admin = false if admin.nil?
   end
 end
