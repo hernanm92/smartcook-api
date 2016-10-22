@@ -15,11 +15,12 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  steps       :string           default([]), is an Array
-#  tips        :string           default([]), is an Array
 #  original    :integer
 #
 
 class Recipe < ActiveRecord::Base
+  has_many :tips
+
   has_many :ingredients_per_recipes, dependent: :destroy, class_name: 'IngredientPerRecipe'
   has_many :ingredients, through: :ingredients_per_recipes
 
@@ -43,7 +44,6 @@ class Recipe < ActiveRecord::Base
 
   def set_defaults
     self.steps ||= []
-    self.tips ||= []
     self.validated = false if validated.nil?
   end
 

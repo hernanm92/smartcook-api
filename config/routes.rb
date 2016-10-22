@@ -34,6 +34,7 @@ Rails.application.routes.draw do
   resources :recipes, except: [:new, :edit]
   resources :food_categories, except: [:new, :edit]
   resources :badges, except: [:new, :edit]
+  resources :tips, except:[:new, :edit]
 
   get '/', to: 'application#index'
   get '*path', to: 'application#routing_error'
