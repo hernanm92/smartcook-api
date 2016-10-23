@@ -2,17 +2,18 @@
 #
 # Table name: recipes_per_users
 #
-#  id         :integer          not null, primary key
-#  recipe_id  :integer
-#  user_id    :integer
-#  favorite   :boolean          default(FALSE)
-#  owner      :boolean          default(FALSE)
-#  vote       :integer
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
-#  username   :string
-#  like       :boolean
-#  validated  :boolean
+#  id                  :integer          not null, primary key
+#  recipe_id           :integer
+#  user_id             :integer
+#  favorite            :boolean          default(FALSE)
+#  owner               :boolean          default(FALSE)
+#  vote                :integer
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null
+#  username            :string
+#  like                :boolean
+#  validated           :boolean
+#  positive_validation :boolean
 #
 
 class RecipePerUserSerializer < ActiveModel::Serializer
