@@ -7,6 +7,7 @@
 #  updated_at :datetime         not null
 #  username   :string
 #  token      :string
+#  password   :string
 #
 
 class Session < ActiveRecord::Base
@@ -28,6 +29,6 @@ class Session < ActiveRecord::Base
 
   def validate_user
     user = User.find_by_username username
-    raise StandardError, 'Username or password are wrong' unless user && (user.password == password)
+    raise StandardError, 'Incorrect user or password' unless user && (user.password == password)
   end
 end

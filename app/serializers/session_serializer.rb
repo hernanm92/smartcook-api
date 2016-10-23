@@ -7,6 +7,7 @@
 #  updated_at :datetime         not null
 #  username   :string
 #  token      :string
+#  password   :string
 #
 
 class SessionSerializer < ActiveModel::Serializer
