@@ -8,10 +8,10 @@
 #  image_url   :string
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
-#  type        :string
 #  amount      :integer
+#  badge_type  :string
 #
 
 class BadgeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description, :image_url
+  attributes :id, :name, :description, :image_url, :badge_type, :amount
 end

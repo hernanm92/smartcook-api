@@ -33,7 +33,9 @@ class BadgesController < ApplicationController
     {
       name: params.require(:name),
       description: params.require(:description),
-      image_url: params.require(:image_url)
+      image_url: params.require(:image_url),
+      badge_type: params.require(:badge_type),
+      amount: params.require(:amount)
     }
   end
 

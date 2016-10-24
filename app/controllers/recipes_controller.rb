@@ -63,9 +63,9 @@ class RecipesController < ApplicationController
   end
 
   def recipe_search_params
-    # TODO: agregar ingredientes excluidos
     {
       ingredients: params.require(:ingredients),
+      excluded_ingredients: params[:excluded_ingredients],
       food_categories: params[:food_categories],
       vegan: params[:vegan],
       vegetarian: params[:vegetarian],
