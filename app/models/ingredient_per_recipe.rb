@@ -19,7 +19,7 @@ class IngredientPerRecipe < ActiveRecord::Base
 
   validates :ingredient_id, presence: true, numericality: { only_integer: true }
   validates :recipe_id, presence: true, numericality: { only_integer: true }
-  validates :amount, presence: true, numericality: { only_integer: true }
+  validates :amount, presence: true
   validates :unit, presence: true, length: { in: 1..15 }
 
   after_create :update_recipe_restrictions

@@ -6,7 +6,8 @@ class RecipesController < ApplicationController
     @recipes = Recipe.where(diabetic: params[:diabetic], validated: true) if params[:diabetic]
     @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated].nil?
     @recipes = RecipePerUser.where(username: params[:username], favorite: true).map(&:recipe) if params[:username] && params[:favorite] == 'true'
-    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username], validated: true).map(&:recipe) if params[:username] && params[:validated] == 'false'
+    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated] == 'false'
+    @recipes = RecipePerUser.where(username: params[:username], owner: true).map(&:recipe) if params[:username] && params[:owner]
     @recipes = Recipe.all unless @recipes
     @recipes = @recipes.select{|recipe| recipe.original.nil?}  # las que no fueron editadas
     render json: @recipes
