@@ -36,8 +36,9 @@ class Recipe < ActiveRecord::Base
 
   def self.search(restrictions)
     recipes = filter_food_restrictions restrictions
-    recipes = filter_food_categories recipes, restrictions if restrictions[:food_categories]
-    best_recipes recipes, restrictions
+    recipes = filter_food_categories recipes, restrictions[:food_categories] if restrictions[:food_categories]
+    recipes = filter_excluded_ingredients recipes, restrictions[:excluded_ingredients] if restrictions[:excluded_ingredients]
+    best_recipes recipes, restrictions[:ingredients]
   end
 
   private
@@ -63,9 +64,7 @@ class Recipe < ActiveRecord::Base
     recipes
   end
 
-  def self.filter_food_categories(recipes, restrictions)
-    food_categories_rectrictions_ids = JSON.parse(restrictions[:food_categories])
-
+  def self.filter_food_categories(recipes, food_categories_rectrictions_ids)
     recipes.to_a.select do |recipe|
       food_categories_in_common?(food_categories_rectrictions_ids, recipe.ingredients.map(&:food_category_id))
     end
@@ -75,13 +74,22 @@ class Recipe < ActiveRecord::Base
     (food_categories_rectrictions_ids & ingredients_food_categories_ids).empty?
   end
 
-  def self.best_recipes(recipes, restrictions)
-    recipes.sort_by { |recipe| -recipe_weight(recipe, restrictions[:ingredients]) }.first(10)
+  def self.filter_excluded_ingredients(recipes, excluded_ingredients_ids)
+    recipes.to_a.select do |recipe|
+      ingredients_in_common?(excluded_ingredients_ids, recipe.ingredients.map(&:id))
+    end
   end
 
-  def self.recipe_weight(recipe, ingredients)
+  def self.ingredients_in_common?(excluded_ingredients_ids, ingredients_ids)
+    (excluded_ingredients_ids & ingredients_ids).empty?
+  end
+
+  def self.best_recipes(recipes, ingredients_ids)
+    recipes.sort_by { |recipe| -recipe_weight(recipe, ingredients_ids) }.first(10)
+  end
+
+  def self.recipe_weight(recipe, ingredients_ids)
     recipe_ingredients_ids = recipe.ingredients.map(&:id)
-    ingredients_ids = JSON.parse(ingredients)
 
     ingredients_matchs = (recipe_ingredients_ids & ingredients_ids).size # ingredientes que coinciden con la receta
     ingredients_left = (recipe_ingredients_ids - ingredients_ids).size # ingredientes que le sobran a la receta
