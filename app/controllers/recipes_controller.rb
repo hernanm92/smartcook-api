@@ -4,9 +4,8 @@ class RecipesController < ApplicationController
     @recipes = Recipe.where(vegetarian: params[:vegetarian], validated: true) if params[:vegetarian]
     @recipes = Recipe.where(celiac: params[:celiac], validated: true) if params[:celiac]
     @recipes = Recipe.where(diabetic: params[:diabetic], validated: true) if params[:diabetic]
-    @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated].nil?
+    @recipes = RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username]
     @recipes = RecipePerUser.where(username: params[:username], favorite: true).map(&:recipe) if params[:username] && params[:favorite] == 'true'
-    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username] && params[:validated] == 'false'
     @recipes = RecipePerUser.where(username: params[:username], owner: true).map(&:recipe) if params[:username] && params[:owner]
     @recipes = Recipe.all unless @recipes
     @recipes = @recipes.select { |recipe| recipe.validated == true } # muestro solo las validadas
@@ -14,7 +13,8 @@ class RecipesController < ApplicationController
   end
 
   def validation_index
-    # do # mostrar las recetas que faltan validar para ese usuario /recipes/validation?username=hmaschwitz
+    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username]
+    render json: @recipes
   end
 
   def show

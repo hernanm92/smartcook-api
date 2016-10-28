@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/recipes/search', to: 'recipes#search'
+  get '/recipes/validation', to: 'recipes#validation_index'
 
   put '/recipes_per_users', to: 'recipes_per_users#update'
   delete '/recipes_per_users', to: 'recipes_per_users#destroy'
