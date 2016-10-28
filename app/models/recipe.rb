@@ -28,7 +28,7 @@ class Recipe < ActiveRecord::Base
   has_many :users, through: :recipes_per_users
 
   validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
-  validates :description, presence: true, length: { in: 5..200 }
+  validates :description, presence: true, length: { in: 5..300 }
   validates :steps, presence: true # , length: { in: 5..50 }
 
   after_initialize :set_defaults

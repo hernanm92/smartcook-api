@@ -38,7 +38,8 @@ class RecipesPerUsersController < ApplicationController
       owner: params.require(:owner),
       like: params[:like],
       vote: params[:vote],
-      validated: params[:validated]
+      validated: params[:validated],
+      positive_validation: params[:positive_validation]
     }
   end
 
