@@ -16,6 +16,8 @@
 #  updated_at  :datetime         not null
 #  steps       :string           default([]), is an Array
 #  original    :integer
+#  likes       :integer
+#  votes       :float
 #
 
 class RecipeSerializer < ActiveModel::Serializer
