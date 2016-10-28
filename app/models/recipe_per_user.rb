@@ -109,8 +109,17 @@ class RecipePerUser < ActiveRecord::Base
   end
 
   def validate_recipe
-    positive_validations_amount = RecipePerUser.count(recipe_id: recipe_id, positive_validation: true)
-    if positive_validations_amount >= 1 # asumo que se valida con 1
+    validations_needed = [{ from_users: 1, to_users: 50, percentage: 0.1 }, { from_users: 50, users: 200, percentage: 0.05 }, { from_users: 200, users: 100000, percentage: 0.01 }]
+    # porcentaje de validacion segun cantidad de usuarios (lo ideal seria una funcion logaritmica)
+
+    users_amount = User.count
+    percentage = validations_needed.find { |validation| users_amount >= validation[:from_users] && users_amount < validation[:to_users] }[:percentage]
+    users_needed = users_amount * percentage
+    users_needed = users_needed.to_i.positive? ? users_needed : 1
+
+    positive_validations_amount = (RecipePerUser.where(recipe_id: recipe_id, positive_validation: true).count - RecipePerUser.where(recipe_id: recipe_id, positive_validation: false).count) + 1 # como estas en el before update, todavia no esta considerando la actual
+    # validaciones positivas - negativas
+    if positive_validations_amount >= users_needed
       recipe = Recipe.find(recipe_id)
       recipe.update!(validated: true)
     end
