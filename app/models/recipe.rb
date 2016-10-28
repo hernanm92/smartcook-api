@@ -41,6 +41,10 @@ class Recipe < ActiveRecord::Base
     best_recipes recipes, restrictions[:ingredients]
   end
 
+  def owner
+    self.recipes_per_users.where(owner: true).map(&:user).first
+  end
+
   private
 
   def set_defaults

@@ -50,6 +50,6 @@ class RecipesPerUsersController < ApplicationController
   end
 
   def recipes_per_users_update_params
-    params.slice(:favorite, :vote, :like, :validated).permit!
+    params.slice(:favorite, :vote, :like, :validated, :positive_validation).permit!
   end
 end

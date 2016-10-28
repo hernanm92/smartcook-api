@@ -33,6 +33,8 @@ class RecipePerUser < ActiveRecord::Base
   validates :validated, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
+  before_update :validate_recipe, if: :positive_validation_changed? # se hace befire_update, porque en el after la receta ya tiene que estar validada para darle la insignia
+
   after_create :update_badges_validate_recipe
   after_update :update_badges_validate_recipe, if: :validated_changed? # cuando valida cualquier receta
 
@@ -71,7 +73,46 @@ class RecipePerUser < ActiveRecord::Base
   end
 
   def update_badges_create_recipe
-    # DESPUES VALIDO AL USUARIO QUE CARGO LA RECETA
-    # do
+    # TODO: optimizar
+    recipe = Recipe.find_by_id(recipe_id)
+    user = recipe.owner
+
+    return unless user # si recien se crea la receta (y todavia no tiene su relacion con el owner)
+
+    badges_left = []
+    badges_left = Badge.where(badge_type: 'vegan') - user.badges if recipe.vegan
+    created_vegan_recipes_amount = RecipePerUser.where(username: user.username, owner: true).map(&:recipe).select(&:validated).select(&:vegan).count
+    badges_left.each do |badge|
+      BadgePerUser.create!(username: user.username, badge_id: badge.id) if badge.amount == created_vegan_recipes_amount
+    end
+
+    badges_left = []
+    badges_left = Badge.where(badge_type: 'vegetarian') - user.badges if recipe.vegetarian
+    created_vegetarian_recipes_amount = RecipePerUser.where(username: user.username, owner: true).map(&:recipe).select(&:validated).select(&:vegetarian).count
+    badges_left.each do |badge|
+      BadgePerUser.create!(username: user.username, badge_id: badge.id) if badge.amount == created_vegetarian_recipes_amount
+    end
+
+    badges_left = []
+    badges_left = Badge.where(badge_type: 'celiac') - user.badges if recipe.celiac
+    created_celiac_recipes_amount = RecipePerUser.where(username: user.username, owner: true).map(&:recipe).select(&:validated).select(&:celiac).count
+    badges_left.each do |badge|
+      BadgePerUser.create!(username: user.username, badge_id: badge.id) if badge.amount == created_celiac_recipes_amount
+    end
+
+    badges_left = []
+    badges_left = Badge.where(badge_type: 'diabetic') - user.badges if recipe.diabetic
+    created_diabetic_recipes_amount = RecipePerUser.where(username: user.username, owner: true).map(&:recipe).select(&:validated).select(&:diabetic).count
+    badges_left.each do |badge|
+      BadgePerUser.create!(username: user.username, badge_id: badge.id) if badge.amount == created_diabetic_recipes_amount
+    end
+  end
+
+  def validate_recipe
+    positive_validations_amount = RecipePerUser.count(recipe_id: recipe_id, positive_validation: true)
+    if positive_validations_amount >= 1 # asumo que se valida con 1
+      recipe = Recipe.find(recipe_id)
+      recipe.update!(validated: true)
+    end
   end
 end

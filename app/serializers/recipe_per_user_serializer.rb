@@ -17,5 +17,5 @@
 #
 
 class RecipePerUserSerializer < ActiveModel::Serializer
-  attributes :recipe_id, :username, :favorite, :owner, :vote, :like, :validated
+  attributes :recipe_id, :username, :favorite, :owner, :vote, :like, :validated, :positive_validation
 end
