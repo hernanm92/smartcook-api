@@ -1,8 +1,7 @@
 class UsersController < ApplicationController
   def index
-    @users = User.find_by_username(params[:username]) if params[:username]
-    @users = FrequentUser.where(username: params[:chef]) if params[:chef]
     @users = User.all unless @users
+    @users = @users.select { |user| user.enabled == true } # muestro solo los habilitados
     render json: @users
   end
 
@@ -26,6 +25,11 @@ class UsersController < ApplicationController
     @user = User.find_by!(user_find_params)
     @user.destroy!
     render json: @user
+  end
+
+  def frequent_users
+    @users = User.find_by!(user_find_params).users
+    render json: @users
   end
 
   private
