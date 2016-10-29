@@ -17,6 +17,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  admin      :boolean
+#  enabled    :boolean
 #
 
 class User < ActiveRecord::Base
@@ -32,9 +33,6 @@ class User < ActiveRecord::Base
   has_many :badges_per_users, dependent: :destroy, class_name: 'BadgePerUser'
   has_many :badges, through: :badges_per_users
 
-  # has_many :users, dependent: :destroy
-  # has_many :frequent_users, source: :users
-
   has_many :frequent_users, dependent: :destroy, class_name: 'FrequentUser'
   has_many :users, through: :frequent_users, source: :frequent_user
   # se trae a los frequent users de la tabla FrequentUser
@@ -43,11 +41,7 @@ class User < ActiveRecord::Base
   validates :name, presence: true, length: { in: 5..30 }
   validates :email, presence: true, uniqueness: true, length: { in: 5..30 }
   validates :password, presence: true, length: { in: 5..30 }
-
-  # has_and_belongs_to_many(:posts,
-  # :join_table => "post_connections",
-  # :foreign_key => "post_a_id",
-  # :association_foreign_key => "post_b_id")
+  validates :enabled, inclusion: { in: [true, false] }
 
   after_initialize :set_defaults
 
@@ -64,5 +58,6 @@ class User < ActiveRecord::Base
     self.celiac = false if celiac.nil?
     self.diabetic = false if diabetic.nil?
     self.admin = false if admin.nil?
+    self.enabled = true if enabled.nil?
   end
 end

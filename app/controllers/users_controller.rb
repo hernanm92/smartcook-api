@@ -53,7 +53,7 @@ class UsersController < ApplicationController
   end
 
   def user_update_params
-    params.slice(:name, :email, :password, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic)
+    params.slice(:name, :email, :password, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic, :enabled)
           .permit!
   end
 end

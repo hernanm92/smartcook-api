@@ -17,8 +17,9 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  admin      :boolean
+#  enabled    :boolean
 #
 
 class UserSerializer < ActiveModel::Serializer
-  attributes :username, :name, :email, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic, :admin
+  attributes :username, :name, :email, :avatar, :birthdate, :gender, :vegetarian, :vegan, :celiac, :diabetic, :admin, :enabled
 end
