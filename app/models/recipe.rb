@@ -32,6 +32,8 @@ class Recipe < ActiveRecord::Base
   validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
   validates :description, presence: true, length: { in: 5..300 }
   validates :steps, presence: true # , length: { in: 5..50 }
+  validates :likes, numericality: { only_integer: true }
+  # validates :votes, numericality: { only_integer: false }
 
   after_initialize :set_defaults
   before_create :set_restrictions
@@ -52,6 +54,7 @@ class Recipe < ActiveRecord::Base
   def set_defaults
     self.steps ||= []
     self.validated = false if validated.nil?
+    self.likes ||= 0
   end
 
   def set_restrictions

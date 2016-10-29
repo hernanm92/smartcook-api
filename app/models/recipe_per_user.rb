@@ -41,10 +41,11 @@ class RecipePerUser < ActiveRecord::Base
   after_create :update_badges_create_recipe
   after_update :update_badges_create_recipe, if: :positive_validation_changed? # cuando valida positivo una receta
 
-  # siempre que se crea, o positive_validation es true
-  # validar si gano una nueva insignia, o si se valido la receta
-  # save_audit_event('disable', { version: version }) if status_changed? to: 'disabled'
-  # after_update :create_update_instances_job, if: :min_instances_changed?
+  after_create :update_likes, if: :like_changed?
+  after_update :update_likes, if: :like_changed?
+
+  after_create :update_votes, if: :vote_changed?
+  after_update :update_votes, if: :vote_changed?
 
   def update!(params)
     params[:user_id] = user_id
@@ -123,5 +124,21 @@ class RecipePerUser < ActiveRecord::Base
       recipe = Recipe.find(recipe_id)
       recipe.update!(validated: true)
     end
+  end
+
+  def update_likes
+    RecipePerUser.reset_column_information
+    self.recipe.update!(likes: self.recipe.likes + 1)  if like_changed? from: false, to: true # tengo que agregar un like a la receta
+    self.recipe.update!(likes: self.recipe.likes + 1)  if like_changed? from: nil, to: true
+    self.recipe.update!(likes: self.recipe.likes - 1)  if like_changed? from: true, to: false # tengo que sacarle un like a la receta
+  end
+
+  def update_votes
+    RecipePerUser.reset_column_information
+    return unless vote_changed?
+    recipes_per_users_with_votes = RecipePerUser.where.not(vote: nil)
+    amount_of_votes = recipes_per_users_with_votes.count
+    votes_sum = recipes_per_users_with_votes.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.vote }
+    self.recipe.update!(votes: votes_sum.to_f / amount_of_votes.to_f)
   end
 end
