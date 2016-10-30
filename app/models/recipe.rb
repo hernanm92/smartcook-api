@@ -40,9 +40,9 @@ class Recipe < ActiveRecord::Base
 
   def self.search(restrictions)
     recipes = filter_food_restrictions restrictions
-    recipes = filter_food_categories recipes, restrictions[:food_categories] if restrictions[:food_categories]
-    recipes = filter_excluded_ingredients recipes, restrictions[:excluded_ingredients] if restrictions[:excluded_ingredients]
-    best_recipes recipes, restrictions[:ingredients]
+    recipes = filter_food_categories recipes, JSON.parse(restrictions[:food_categories]) if restrictions[:food_categories]
+    recipes = filter_excluded_ingredients recipes, JSON.parse(restrictions[:excluded_ingredients]) if restrictions[:excluded_ingredients]
+    best_recipes recipes, JSON.parse(restrictions[:ingredients])
   end
 
   def owner
