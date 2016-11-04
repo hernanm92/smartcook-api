@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161029054755) do
+ActiveRecord::Schema.define(version: 20161104042922) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -107,7 +107,6 @@ ActiveRecord::Schema.define(version: 20161029054755) do
     t.string   "steps",       default: [],              array: true
     t.integer  "original"
     t.integer  "likes"
-    t.float    "votes"
   end
 
   create_table "recipes_per_users", force: :cascade do |t|
@@ -115,13 +114,13 @@ ActiveRecord::Schema.define(version: 20161029054755) do
     t.integer  "user_id"
     t.boolean  "favorite",            default: false
     t.boolean  "owner",               default: false
-    t.integer  "vote"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.string   "username"
     t.boolean  "like"
     t.boolean  "validated"
     t.boolean  "positive_validation"
+    t.integer  "stars"
   end
 
   create_table "sessions", force: :cascade do |t|

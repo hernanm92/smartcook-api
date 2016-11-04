@@ -37,7 +37,7 @@ class RecipesPerUsersController < ApplicationController
       favorite: params.require(:favorite),
       owner: params.require(:owner),
       like: params[:like],
-      vote: params[:vote],
+      stars: params[:stars],
       validated: params[:validated],
       positive_validation: params[:positive_validation]
     }
@@ -51,6 +51,6 @@ class RecipesPerUsersController < ApplicationController
   end
 
   def recipes_per_users_update_params
-    params.slice(:favorite, :vote, :like, :validated, :positive_validation).permit!
+    params.slice(:favorite, :stars, :like, :validated, :positive_validation).permit!
   end
 end

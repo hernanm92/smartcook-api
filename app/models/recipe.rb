@@ -17,7 +17,6 @@
 #  steps       :string           default([]), is an Array
 #  original    :integer
 #  likes       :integer
-#  votes       :float
 #
 
 class Recipe < ActiveRecord::Base
@@ -33,7 +32,7 @@ class Recipe < ActiveRecord::Base
   validates :description, presence: true, length: { in: 5..300 }
   validates :steps, presence: true # , length: { in: 5..50 }
   validates :likes, numericality: { only_integer: true }
-  # validates :votes, numericality: { only_integer: false }
+  # validates :stars, numericality: { only_integer: false }
 
   after_initialize :set_defaults
   before_create :set_restrictions

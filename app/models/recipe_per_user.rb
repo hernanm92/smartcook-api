@@ -7,13 +7,13 @@
 #  user_id             :integer
 #  favorite            :boolean          default(FALSE)
 #  owner               :boolean          default(FALSE)
-#  vote                :integer
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  username            :string
 #  like                :boolean
 #  validated           :boolean
 #  positive_validation :boolean
+#  stars               :integer
 #
 
 class RecipePerUser < ActiveRecord::Base
@@ -31,7 +31,7 @@ class RecipePerUser < ActiveRecord::Base
   validates :owner, inclusion: { in: [true, false] }
   validates :like, inclusion: { in: [true, false] }
   validates :validated, inclusion: { in: [true, false] }
-  validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
+  validates :stars, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
   before_create :validate_recipe, if: :positive_validation_changed?
   before_update :validate_recipe, if: :positive_validation_changed? # se hace before_update, porque en el after la receta ya tiene que estar validada para darle la insignia
@@ -45,8 +45,8 @@ class RecipePerUser < ActiveRecord::Base
   after_create :update_likes, if: :like_changed?
   after_update :update_likes, if: :like_changed?
 
-  after_create :update_votes, if: :vote_changed?
-  after_update :update_votes, if: :vote_changed?
+  after_create :update_stars, if: :stars_changed?
+  after_update :update_stars, if: :stars_changed?
 
   def update!(params)
     params[:user_id] = user_id
@@ -134,12 +134,12 @@ class RecipePerUser < ActiveRecord::Base
     self.recipe.update!(likes: self.recipe.likes - 1)  if like_changed? from: true, to: false # tengo que sacarle un like a la receta
   end
 
-  def update_votes
+  def update_stars
     RecipePerUser.reset_column_information
-    return unless vote_changed?
-    recipes_per_users_with_votes = RecipePerUser.where.not(vote: nil)
-    amount_of_votes = recipes_per_users_with_votes.count
-    votes_sum = recipes_per_users_with_votes.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.vote }
-    self.recipe.update!(votes: votes_sum.to_f / amount_of_votes.to_f)
+    return unless stars_changed?
+    recipes_per_users_with_stars = RecipePerUser.where.not(stars: nil)
+    amount_of_stars = recipes_per_users_with_stars.count
+    stars_sum = recipes_per_users_with_stars.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.stars }
+    self.recipe.update!(stars: stars_sum.to_f / amount_of_stars.to_f)
   end
 end

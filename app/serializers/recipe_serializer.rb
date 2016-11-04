@@ -17,10 +17,9 @@
 #  steps       :string           default([]), is an Array
 #  original    :integer
 #  likes       :integer
-#  votes       :float
 #
 
 class RecipeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :image_url, :stars, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic,
-             :steps, :original, :likes, :votes
+  attributes :id, :name, :image_url, :validated, :description, :vegetarian, :vegan, :celiac, :diabetic,
+             :steps, :original, :likes, :stars
 end

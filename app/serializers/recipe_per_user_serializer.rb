@@ -7,13 +7,13 @@
 #  user_id             :integer
 #  favorite            :boolean          default(FALSE)
 #  owner               :boolean          default(FALSE)
-#  vote                :integer
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  username            :string
 #  like                :boolean
 #  validated           :boolean
 #  positive_validation :boolean
+#  stars               :integer
 #
 
 class RecipePerUserSerializer < ActiveModel::Serializer

@@ -52,7 +52,8 @@ class RecipesController < ApplicationController
       image_url: params.require(:image_url),
       description: params.require(:description),
       steps: params.require(:steps),
-      original: params[:original]
+      original: params[:original],
+      validated: params[:validated] # solo lo agrego para nuestras migraciones (cuando creo un receta se crea en false)
     }
   end
 

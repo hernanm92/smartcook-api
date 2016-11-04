@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/recipes/search', to: 'recipes#search'
+  post '/recipes/search', to: 'recipes#search'
   get '/recipes/validation', to: 'recipes#validation_index'
 
   get '/users/:id/frequent_users', to: 'users#frequent_users'

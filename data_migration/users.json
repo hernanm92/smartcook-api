@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hmaschwitz",
+      "name": "Hernan Maschwitz",
+      "email": "hernanm992@gmail.com",
+      "password": "password",
+      "image_url": "profile/hmaschwitz",
+      "vegetarian": true,
+      "gender": "male",
+      "birthdate": "1992-10-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 2,
+      "username": "amodugno",
+      "name": "Agustin Modugno",
+      "email": "amodugno@gmail.com",
+      "password": "password",
+      "image_url": "profile/amodugno",
+      "gender": "male",
+      "birthdate": "1992-10-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 3,
+      "username": "mperalta",
+      "name": "Matias Leon Peralta",
+      "email": "mperalta@gmail.com",
+      "password": "password",
+      "image_url": "profile/mperalta",
+      "gender": "male",
+      "birthdate": "1992-10-10T00:00:00.000-03:00"
+    }
+  ]
+}

@@ -17,7 +17,6 @@
 #  steps       :string           default([]), is an Array
 #  original    :integer
 #  likes       :integer
-#  votes       :float
 #
 
 require 'test_helper'

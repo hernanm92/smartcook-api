@@ -1,0 +1,68 @@
+{
+  "food_categories": [
+    {
+      "id": 1,
+      "name": "Carne Blanca"
+    },
+    {
+      "id": 2,
+      "name": "Frutas"
+    },
+    {
+      "id": 3,
+      "name": "Hortalizas"
+    },
+    {
+      "id": 4,
+      "name": "Carne Roja"
+    },
+    {
+      "id": 5,
+      "name": "Elaborados"
+    },
+    {
+      "id": 6,
+      "name": "Otros"
+    },
+    {
+      "id": 7,
+      "name": "Lacteos"
+    },
+    {
+      "id": 8,
+      "name": "Legumbres"
+    },
+    {
+      "id": 9,
+      "name": "Setas"
+    },
+    {
+      "id": 10,
+      "name": "Frutas secas"
+    },
+    {
+      "id": 11,
+      "name": "Granos"
+    },
+    {
+      "id": 12,
+      "name": "Semillas"
+    },
+    {
+      "id": 13,
+      "name": "Queso(Blando)"
+    },
+    {
+      "id": 14,
+      "name": "Aceites"
+    },
+    {
+      "id": 15,
+      "name": "Queso(Maduro)"
+    },
+    {
+      "id": 16,
+      "name": "Especias"
+    }
+  ]
+}
