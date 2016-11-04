@@ -137,7 +137,7 @@ class RecipePerUser < ActiveRecord::Base
   def update_stars
     RecipePerUser.reset_column_information
     return unless stars_changed?
-    recipes_per_users_with_stars = RecipePerUser.where.not(stars: nil)
+    recipes_per_users_with_stars = RecipePerUser.where(recipe_id: self.recipe_id).where.not(stars: nil)
     amount_of_stars = recipes_per_users_with_stars.count
     stars_sum = recipes_per_users_with_stars.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.stars }
     self.recipe.update!(stars: stars_sum.to_f / amount_of_stars.to_f)
