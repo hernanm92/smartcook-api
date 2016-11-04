@@ -51,7 +51,8 @@ class RecipesController < ApplicationController
       name: params.require(:name),
       image_url: params.require(:image_url),
       description: params.require(:description),
-      steps: params.require(:steps)
+      steps: params.require(:steps),
+      original: params[:original]
     }
   end
 
