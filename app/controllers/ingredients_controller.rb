@@ -7,7 +7,11 @@ class IngredientsController < ApplicationController
   end
 
   def show
-    @ingredient = Ingredient.find_by!(ingredient_find_params)
+    begin
+      @ingredient = Ingredient.find_by!(ingredient_find_params)
+    rescue ActiveRecord::RecordNotFound
+    end
+    @ingredient = Ingredient.find_by!(name_id: params[:id]) unless @ingredient
     render json: @ingredient
   end
 
