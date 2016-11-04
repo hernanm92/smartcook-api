@@ -1,5 +1,6 @@
 require 'typhoeus'
 require 'json'
+require 'multi_json'
 
 def get_file(file_name)
   JSON.parse(
@@ -64,6 +65,21 @@ recipes.each do |recipe|
     body: recipe.to_json,
     headers: { 'Content-Type' => 'application/json' }
   )
-  # hacer un request por cada ingrediente
+
+  p 'INGREDIENTS PER RECIPES'
+  recipe['ingredients'].each do |ingredient|
+    response = Typhoeus.get("http://localhost:5000/ingredients/#{ingredient['name_id']}")
+    ingredient_id = MultiJson.load(response.body)['id']
+    ingredient_per_recipe = { ingredient_id: ingredient_id, recipe_id: recipe['id'], amount: ingredient['amount'], unit: ingredient['unit'] }
+    p ingredient_per_recipe
+    Typhoeus.post(
+      'http://localhost:5000/ingredients_per_recipes',
+      body: ingredient_per_recipe.to_json,
+      headers: { 'Content-Type' => 'application/json' }
+    )
+    sleep(0.2)
+  end
   sleep(0.2)
 end
+
+# faltan los tips

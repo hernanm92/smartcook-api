@@ -4064,6 +4064,21 @@
       "vegan": true,
       "vegetarian": true,
       "diabetic": true
+    },
+    {
+      "id": 273,
+      "name": "Laurel",
+      "name_id": "laurel",
+      "food_category_id": 3,
+      "image_url": "img/laurel.jpg",
+      "calories": 1,
+      "proteins": 1,
+      "carbohydrates": 1,
+      "fats": 1,
+      "celiac": true,
+      "vegan": true,
+      "vegetarian": true,
+      "diabetic": true
     }
   ]
 }
