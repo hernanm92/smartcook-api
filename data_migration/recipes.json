@@ -15,37 +15,37 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla_morada",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 250,
+          "amount": 250,
           "unit": "ml"
         },
         {
           "name_id": "vinagre_alcohol",
-          "quantity": 8,
+          "amount": 8,
           "unit": "cucharada"
         },
         {
           "name_id": "champiñion",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         }
       ],
@@ -71,42 +71,42 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "garbanzo",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "tomate",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "manteca",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "canela",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cilantro",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         }
       ],
@@ -132,32 +132,32 @@
       "ingredients": [
         {
           "name_id": "fideo_spaghetti",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "tomate",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -183,57 +183,57 @@
       "ingredients": [
         {
           "name_id": "mani",
-          "quantity": 5,
+          "amount": 5,
           "unit": "gr"
         },
         {
           "name_id": "azucar",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "cucharada"
         },
         {
           "name_id": "fideo_arroz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "brocoli",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "castaña",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "brote_soja",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "choclo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -260,72 +260,72 @@
       "ingredients": [
         {
           "name_id": "maizena",
-          "quantity": 3,
+          "amount": 3,
           "unit": "taza"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "vainilla_esencia",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "cucharada"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "leche_liquida",
-          "quantity": 3,
+          "amount": 3,
           "unit": "taza"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 5,
+          "amount": 5,
           "unit": "cucharada"
         },
         {
           "name_id": "brocoli",
-          "quantity": 1,
+          "amount": 1,
           "unit": "paquete"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla_verdeo",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_perita",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 1,
+          "amount": 1,
           "unit": "caja"
         }
       ],
@@ -356,32 +356,32 @@
       "ingredients": [
         {
           "name_id": "huevo_gallina",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "huevo_clara",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "harina_tac",
-          "quantity": 6,
+          "amount": 6,
           "unit": "cucharada"
         },
         {
           "name_id": "azucar",
-          "quantity": 6,
+          "amount": 6,
           "unit": "cucharada"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "canela",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "cucharada"
         }
       ],
@@ -411,47 +411,47 @@
       "ingredients": [
         {
           "name_id": "harina_tac",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharadas"
         },
         {
           "name_id": "agua",
-          "quantity": 200,
+          "amount": 200,
           "unit": "ml"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 10,
+          "amount": 10,
           "unit": "gr"
         },
         {
           "name_id": "atun",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "anchoa",
-          "quantity": 1,
+          "amount": 1,
           "unit": "lata"
         },
         {
           "name_id": "queso_parmesano",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "salsa_pizza",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "paquete"
         },
         {
           "name_id": "aceituna_negra",
-          "quantity": 8,
+          "amount": 8,
           "unit": "unidad"
         }
       ],
@@ -482,32 +482,32 @@
       "ingredients": [
         {
           "name_id": "harina_tac",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 140,
+          "amount": 140,
           "unit": "ml"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -537,32 +537,32 @@
       "ingredients": [
         {
           "name_id": "carne_picada",
-          "quantity": 600,
+          "amount": 600,
           "unit": "gr"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "maizena",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 1,
+          "amount": 1,
           "unit": "caja"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -592,32 +592,32 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "maizena",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "agua",
-          "quantity": 500,
+          "amount": 500,
           "unit": "ml"
         },
         {
           "name_id": "vinagre_manzana",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -648,37 +648,37 @@
       "ingredients": [
         {
           "name_id": "maizena",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "mandioca",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "leche_descremada_polvo",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "goma_xantica",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "cucharada"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_maiz",
-          "quantity": 8,
+          "amount": 8,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 130,
+          "amount": 130,
           "unit": "ml"
         }
       ],
@@ -708,32 +708,32 @@
       "ingredients": [
         {
           "name_id": "fecula_mandioca",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "harina_arroz",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "maizena",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "vainilla_esencia",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -762,37 +762,37 @@
       "ingredients": [
         {
           "name_id": "huevo_gallina",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "harina_tac",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "goma_xantica",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "cucharada"
         },
         {
           "name_id": "queso_crema",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "queso_roquefort",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "jamon_cocido",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         }
       ],
@@ -822,42 +822,42 @@
       "ingredients": [
         {
           "name_id": "harina_arroz",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "maizena",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "taza"
         },
         {
           "name_id": "polvo_hornear",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "leche_coco",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "miel",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_maiz",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "vainilla_esencia",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "banana",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -888,57 +888,57 @@
       "ingredients": [
         {
           "name_id": "harina_arroz",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "harina_garbanzo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "fecula_mandioca",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "maizena",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "taza"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "chia",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "bicarbonato_sodio",
-          "quantity": 0.1,
+          "amount": 0.1,
           "unit": "cucharada"
         },
         {
           "name_id": "ricota",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -968,57 +968,57 @@
       "ingredients": [
         {
           "name_id": "puerro",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "calabaza",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "col_blanca",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "apio",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "brocoli",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "batata",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "curry",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 2.5,
+          "amount": 2.5,
           "unit": "taza"
         }
       ],
@@ -1052,37 +1052,37 @@
       "ingredients": [
         {
           "name_id": "manzana",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "canela",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "nuez",
-          "quantity": 25,
+          "amount": 25,
           "unit": "gr"
         },
         {
           "name_id": "uva_pasa",
-          "quantity": 40,
+          "amount": 40,
           "unit": "gr"
         },
         {
           "name_id": "manteca",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 150,
+          "amount": 150,
           "unit": "ml"
         }
       ],
@@ -1111,72 +1111,72 @@
       "ingredients": [
         {
           "name_id": "pechuga_pollo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 10,
+          "amount": 10,
           "unit": "diente"
         },
         {
           "name_id": "arvejas",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "chaucha",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "agua",
-          "quantity": 535,
+          "amount": 535,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "harina_garbanzo",
-          "quantity": 75,
+          "amount": 75,
           "unit": "gr"
         },
         {
           "name_id": "sesamo",
-          "quantity": 15,
+          "amount": 15,
           "unit": "gr"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 15,
+          "amount": 15,
           "unit": "gr"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 2,
+          "amount": 2,
           "unit": "gr"
         }
       ],
@@ -1206,52 +1206,52 @@
       "ingredients": [
         {
           "name_id": "garbanzo",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "escarola",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "agua",
-          "quantity": 300,
+          "amount": 300,
           "unit": "ml"
         },
         {
           "name_id": "vinagre_alcohol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "sesamo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -1286,52 +1286,52 @@
       "ingredients": [
         {
           "name_id": "mijo",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "berenjena",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "uva_pasa",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "huevo_yema",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 500,
+          "amount": 500,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 150,
+          "amount": 150,
           "unit": "ml"
         },
         {
           "name_id": "perejil",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -1359,22 +1359,22 @@
       "ingredients": [
         {
           "name_id": "mandarina",
-          "quantity": 9,
+          "amount": 9,
           "unit": "unidad"
         },
         {
           "name_id": "huevo_yema",
-          "quantity": 6,
+          "amount": 6,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -1404,22 +1404,22 @@
       "ingredients": [
         {
           "name_id": "huevo_gallina",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "harina_arroz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "leche_descremada_liquida",
-          "quantity": 150,
+          "amount": 150,
           "unit": "ml"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         }
       ],
@@ -1447,57 +1447,57 @@
       "ingredients": [
         {
           "name_id": "acelga",
-          "quantity": 5,
+          "amount": 5,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "mijo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "diente"
         },
         {
           "name_id": "agua",
-          "quantity": 2500,
+          "amount": 2500,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 150,
+          "amount": 150,
           "unit": "ml"
         },
         {
           "name_id": "curry",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cilantro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -1526,27 +1526,27 @@
       "ingredients": [
         {
           "name_id": "maizena",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "leche_descremada_liquida",
-          "quantity": 1,
+          "amount": 1,
           "unit": "lt"
         },
         {
           "name_id": "jamon_cocido",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         }
       ],
@@ -1576,32 +1576,32 @@
       "ingredients": [
         {
           "name_id": "muslo_pollo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "kg"
         },
         {
           "name_id": "ajo",
-          "quantity": 5,
+          "amount": 5,
           "unit": "diente"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "vino_blanco",
-          "quantity": 200,
+          "amount": 200,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         },
         {
           "name_id": "perejil",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -1631,32 +1631,32 @@
       "ingredients": [
         {
           "name_id": "bacalao",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "harina_tac",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 150,
+          "amount": 150,
           "unit": "ml"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -1687,37 +1687,37 @@
       "ingredients": [
         {
           "name_id": "morron_verde",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "carne_picada",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -1750,52 +1750,52 @@
       "ingredients": [
         {
           "name_id": "arroz",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "gamba",
-          "quantity": 16,
+          "amount": 16,
           "unit": "unidad"
         },
         {
           "name_id": "almeja",
-          "quantity": 16,
+          "amount": 16,
           "unit": "unidad"
         },
         {
           "name_id": "mejillon",
-          "quantity": 16,
+          "amount": 16,
           "unit": "unidad"
         },
         {
           "name_id": "calamar",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "vino_blanco",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         }
       ],
@@ -1830,47 +1830,47 @@
       "ingredients": [
         {
           "name_id": "queso_provolone",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "maizena",
-          "quantity": 30,
+          "amount": 30,
           "unit": "gr"
         },
         {
           "name_id": "fecula_mandioca",
-          "quantity": 30,
+          "amount": 30,
           "unit": "gr"
         },
         {
           "name_id": "leche_descremada_polvo",
-          "quantity": 30,
+          "amount": 30,
           "unit": "gr"
         },
         {
           "name_id": "goma_xantica",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "levadura_tac",
-          "quantity": 15,
+          "amount": 15,
           "unit": "gr"
         },
         {
           "name_id": "leche_descremada_liquida",
-          "quantity": 250,
+          "amount": 250,
           "unit": "ml"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_maiz",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -1899,22 +1899,22 @@
       "ingredients": [
         {
           "name_id": "acelga",
-          "quantity": 3,
+          "amount": 3,
           "unit": "taza"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "queso_provolone",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "arroz",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "taza"
         }
       ],
@@ -1942,32 +1942,32 @@
       "ingredients": [
         {
           "name_id": "merluza",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "cilantro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "queso_crema",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         }
       ],
@@ -2005,22 +2005,22 @@
       "ingredients": [
         {
           "name_id": "banana",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "manteca",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "avellana",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "coco",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         }
       ],
@@ -2048,27 +2048,27 @@
       "ingredients": [
         {
           "name_id": "morron_verde",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 10,
+          "amount": 10,
           "unit": "diente"
         },
         {
           "name_id": "champiñion",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -2098,52 +2098,52 @@
       "ingredients": [
         {
           "name_id": "berenjena",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "alcaparra",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 5,
+          "amount": 5,
           "unit": "diente"
         },
         {
           "name_id": "comino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -2171,52 +2171,52 @@
       "ingredients": [
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "apio",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "mani",
-          "quantity": 40,
+          "amount": 40,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 200,
+          "amount": 200,
           "unit": "ml"
         }
       ],
@@ -2243,32 +2243,32 @@
       "ingredients": [
         {
           "name_id": "champiñion",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "limon",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "almendra",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "nuez",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -2298,22 +2298,22 @@
       "ingredients": [
         {
           "name_id": "lentejas",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -2340,37 +2340,37 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "espinaca",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         },
         {
           "name_id": "albahaca",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -2401,32 +2401,32 @@
       "ingredients": [
         {
           "name_id": "brocoli",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "coliflor",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "cous_cous",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         }
       ],
@@ -2454,32 +2454,32 @@
       "ingredients": [
         {
           "name_id": "arroz_basmati",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 12,
+          "amount": 12,
           "unit": "diente"
         },
         {
           "name_id": "perejil",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "romero",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -2506,27 +2506,27 @@
       "ingredients": [
         {
           "name_id": "champiñion",
-          "quantity": 600,
+          "amount": 600,
           "unit": "gr"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "kg"
         },
         {
           "name_id": "perejil",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 10,
+          "amount": 10,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -2557,62 +2557,62 @@
       "ingredients": [
         {
           "name_id": "garbanzo",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 500,
+          "amount": 500,
           "unit": "ml"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "puerro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "apio",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "acelga",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "comino",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "almendra",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -2644,42 +2644,42 @@
       "ingredients": [
         {
           "name_id": "puerro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 3,
+          "amount": 3,
           "unit": "diente"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "lentejas",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "vino_blanco",
-          "quantity": 50,
+          "amount": 50,
           "unit": "ml"
         }
       ],
@@ -2707,47 +2707,47 @@
       "ingredients": [
         {
           "name_id": "tofu",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "curry",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "avena",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "chia",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "sesamo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cilantro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -2773,27 +2773,27 @@
       "ingredients": [
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "nuez",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "albahaca",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -2818,22 +2818,22 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "harina_garbanzo",
-          "quantity": 7,
+          "amount": 7,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         }
       ],
@@ -2861,27 +2861,27 @@
       "ingredients": [
         {
           "name_id": "quinoa",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "unidad"
         },
         {
           "name_id": "brocoli",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "coliflor",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -2908,47 +2908,47 @@
       "ingredients": [
         {
           "name_id": "berenjena",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "quinoa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "taza"
         },
         {
           "name_id": "soja",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 4,
+          "amount": 4,
           "unit": "diente"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -2980,37 +2980,37 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "quinoa",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -3037,42 +3037,42 @@
       "ingredients": [
         {
           "name_id": "mijo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "girasol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "agua",
-          "quantity": 2.5,
+          "amount": 2.5,
           "unit": "lt"
         }
       ],
@@ -3103,42 +3103,42 @@
       "ingredients": [
         {
           "name_id": "tofu",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 4,
+          "amount": 4,
           "unit": "diente"
         },
         {
           "name_id": "tomate_cherry",
-          "quantity": 5,
+          "amount": 5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -3167,42 +3167,42 @@
       "ingredients": [
         {
           "name_id": "cous_cous",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 280,
+          "amount": 280,
           "unit": "ml"
         },
         {
           "name_id": "berenjena",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "albahaca",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 7,
+          "amount": 7,
           "unit": "cucharada"
         }
       ],
@@ -3241,52 +3241,52 @@
       "ingredients": [
         {
           "name_id": "quinoa",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 400,
+          "amount": 400,
           "unit": "ml"
         },
         {
           "name_id": "esparrago",
-          "quantity": 75,
+          "amount": 75,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "limon",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "calabaza_semilla",
-          "quantity": 20,
+          "amount": 20,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -3320,37 +3320,37 @@
       "ingredients": [
         {
           "name_id": "cous_cous",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 500,
+          "amount": 500,
           "unit": "ml"
         },
         {
           "name_id": "tomate",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         }
       ],
@@ -3376,32 +3376,32 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tofu",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -3432,32 +3432,32 @@
       "ingredients": [
         {
           "name_id": "calabaza",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -3485,32 +3485,32 @@
       "ingredients": [
         {
           "name_id": "arroz_integral",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "calabaza",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -3539,57 +3539,57 @@
       "ingredients": [
         {
           "name_id": "calabaza",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "champiñion",
-          "quantity": 2,
+          "amount": 2,
           "unit": "taza"
         },
         {
           "name_id": "tomate",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "leche_coco",
-          "quantity": 500,
+          "amount": 500,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "clavo_olor",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "canela",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "comino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -3620,22 +3620,22 @@
       "ingredients": [
         {
           "name_id": "puerro",
-          "quantity": 600,
+          "amount": 600,
           "unit": "kg"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -3666,27 +3666,27 @@
       "ingredients": [
         {
           "name_id": "palta",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "pepino",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -3716,32 +3716,32 @@
       "ingredients": [
         {
           "name_id": "tomate",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "sandia",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 40,
+          "amount": 40,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 40,
+          "amount": 40,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -3770,22 +3770,22 @@
       "ingredients": [
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "comino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "avena",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 400,
+          "amount": 400,
           "unit": "ml"
         }
       ],
@@ -3814,32 +3814,32 @@
       "ingredients": [
         {
           "name_id": "arroz_basmati",
-          "quantity": 3,
+          "amount": 3,
           "unit": "taza"
         },
         {
           "name_id": "esparrago",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -3865,17 +3865,17 @@
       "ingredients": [
         {
           "name_id": "quinoa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "taza"
         },
         {
           "name_id": "agua",
-          "quantity": 3,
+          "amount": 3,
           "unit": "taza"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -3905,37 +3905,37 @@
       "ingredients": [
         {
           "name_id": "arroz_integral",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "agua",
-          "quantity": 2,
+          "amount": 2,
           "unit": "taza"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "puerro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "mani",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "sesamo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -3962,27 +3962,27 @@
       "ingredients": [
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "ajo",
-          "quantity": 6,
+          "amount": 6,
           "unit": "diente"
         },
         {
           "name_id": "espinaca",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 125,
+          "amount": 125,
           "unit": "ml"
         },
         {
           "name_id": "garbanzo",
-          "quantity": 650,
+          "amount": 650,
           "unit": "gr"
         }
       ],
@@ -4009,12 +4009,12 @@
       "ingredients": [
         {
           "name_id": "garbanzo",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "agua",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "lt"
         }
       ],
@@ -4050,27 +4050,27 @@
       "ingredients": [
         {
           "name_id": "ajo",
-          "quantity": 3,
+          "amount": 3,
           "unit": "diente"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "laurel",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 750,
+          "amount": 750,
           "unit": "ml"
         }
       ],
@@ -4099,37 +4099,37 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "brocoli",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "tofu",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -4157,37 +4157,37 @@
       "ingredients": [
         {
           "name_id": "pepino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "banana",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "manzana",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_cherry",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "vinagre_alcohol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -4212,37 +4212,37 @@
       "ingredients": [
         {
           "name_id": "arvejas",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "unidad"
         },
         {
           "name_id": "salsa_soja",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cuchcarada"
         },
         {
           "name_id": "agua",
-          "quantity": 250,
+          "amount": 250,
           "unit": "ml"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "papa",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -4269,42 +4269,42 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceituna_negra",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "unidad"
         },
         {
           "name_id": "lino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "limon",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "vinagre_alcohol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -4334,37 +4334,37 @@
       "ingredients": [
         {
           "name_id": "coliflor",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "champiñion",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "vino_blanco",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         }
       ],
@@ -4390,42 +4390,42 @@
       "ingredients": [
         {
           "name_id": "lentejas",
-          "quantity": 350,
+          "amount": 350,
           "unit": "gr"
         },
         {
           "name_id": "quinoa",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 3,
+          "amount": 3,
           "unit": "diente"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -4455,62 +4455,62 @@
       "ingredients": [
         {
           "name_id": "lechuga",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "espinaca",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "pepino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "nuez",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "lino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "sesamo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "girasol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "calabaza_semilla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "amapola_semilla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "choclo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "limon",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -4540,52 +4540,52 @@
       "ingredients": [
         {
           "name_id": "calabaza",
-          "quantity": 700,
+          "amount": 700,
           "unit": "gr"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "comino",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cilantro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cardamomo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "pimiento_chile",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "leche_coco",
-          "quantity": 400,
+          "amount": 400,
           "unit": "ml"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -4615,27 +4615,27 @@
       "ingredients": [
         {
           "name_id": "remolacha",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "tomate",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "almendra",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         }
       ],
@@ -4666,47 +4666,47 @@
       "ingredients": [
         {
           "name_id": "berenjena",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "azucar",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "aceituna_negra",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "alcaparra",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -4737,32 +4737,32 @@
       "ingredients": [
         {
           "name_id": "alcachofa",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         }
       ],
@@ -4791,52 +4791,52 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceituna_negra",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "lechuga",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "lechuga_morada",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "calabaza_semilla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "girasol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "limon",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         }
       ],
@@ -4862,32 +4862,32 @@
       "ingredients": [
         {
           "name_id": "espinaca",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "queso_parmesano",
-          "quantity": 60,
+          "amount": 60,
           "unit": "gr"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         }
       ],
@@ -4923,27 +4923,27 @@
       "ingredients": [
         {
           "name_id": "almendra",
-          "quantity": 120,
+          "amount": 120,
           "unit": "gr"
         },
         {
           "name_id": "miel",
-          "quantity": 90,
+          "amount": 90,
           "unit": "gr"
         },
         {
           "name_id": "vainilla_esencia",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "lt"
         }
       ],
@@ -4969,37 +4969,37 @@
       "ingredients": [
         {
           "name_id": "espinaca",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "harina_tac",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "romero",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "lt"
         }
       ],
@@ -5027,27 +5027,27 @@
       "ingredients": [
         {
           "name_id": "apio",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "lentejas",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -5079,37 +5079,37 @@
       "ingredients": [
         {
           "name_id": "calabacin",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "berenjena",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "queso_mozzarella",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 200,
+          "amount": 200,
           "unit": "ml"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 5,
+          "amount": 5,
           "unit": "cucharada"
         }
       ],
@@ -5147,37 +5147,37 @@
       "ingredients": [
         {
           "name_id": "palta",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "palmito",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "esparrago",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "tomate_cherry",
-          "quantity": 8,
+          "amount": 8,
           "unit": "unidad"
         },
         {
           "name_id": "albahaca",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -5206,47 +5206,47 @@
       "ingredients": [
         {
           "name_id": "banana",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "leche_coco",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "taza"
         },
         {
           "name_id": "harina_arroz",
-          "quantity": 0.75,
+          "amount": 0.75,
           "unit": "taza"
         },
         {
           "name_id": "harina_trigo",
-          "quantity": 0.25,
+          "amount": 0.25,
           "unit": "taza"
         },
         {
           "name_id": "coco",
-          "quantity": 0.75,
+          "amount": 0.75,
           "unit": "taza"
         },
         {
           "name_id": "azucar",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "sesamo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "levadura",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -5277,37 +5277,37 @@
       "ingredients": [
         {
           "name_id": "berenjena",
-          "quantity": 3,
+          "amount": 3,
           "unit": "unidad"
         },
         {
           "name_id": "queso_mozzarella",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "tomate_pure",
-          "quantity": 250,
+          "amount": 250,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "azucar",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -5333,22 +5333,22 @@
       "ingredients": [
         {
           "name_id": "calabaza",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "harina_trigo",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "levadura",
-          "quantity": 16,
+          "amount": 16,
           "unit": "gr"
         },
         {
           "name_id": "azucar",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         }
       ],
@@ -5379,27 +5379,27 @@
       "ingredients": [
         {
           "name_id": "papa",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "harina_trigo",
-          "quantity": 9,
+          "amount": 9,
           "unit": "cucharada"
         },
         {
           "name_id": "agua",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -5429,37 +5429,37 @@
       "ingredients": [
         {
           "name_id": "garbanzo",
-          "quantity": 400,
+          "amount": 400,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 5,
+          "amount": 5,
           "unit": "diente"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "cilantro",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "levadura",
-          "quantity": 50,
+          "amount": 50,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         }
       ],
@@ -5488,47 +5488,47 @@
       "ingredients": [
         {
           "name_id": "berenjena",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "cebolla",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "puerro",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "queso_provolone",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -5557,47 +5557,47 @@
       "ingredients": [
         {
           "name_id": "lentejas",
-          "quantity": 150,
+          "amount": 150,
           "unit": "gr"
         },
         {
           "name_id": "arroz",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tomate",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "perejil",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 4,
+          "amount": 4,
           "unit": "cucharada"
         },
         {
           "name_id": "zanahoria",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         }
       ],
@@ -5624,42 +5624,42 @@
       "ingredients": [
         {
           "name_id": "arroz",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "cebolla",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "acelga",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "harina_maiz",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "pan_rallado",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         }
       ],
@@ -5696,57 +5696,57 @@
       "ingredients": [
         {
           "name_id": "acelga",
-          "quantity": 500,
+          "amount": 500,
           "unit": "gr"
         },
         {
           "name_id": "morron_rojo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "morron_verde",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "morron_amarillo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla_verdeo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 1,
+          "amount": 1,
           "unit": "diente"
         },
         {
           "name_id": "choclo",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "unidad"
         },
         {
           "name_id": "mozarella_vegano",
-          "quantity": 200,
+          "amount": 200,
           "unit": "gr"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "tapa_empanada",
-          "quantity": 8,
+          "amount": 8,
           "unit": "unidad"
         }
       ],
@@ -5775,17 +5775,17 @@
       "ingredients": [
         {
           "name_id": "tomate",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "cebolla_morada",
-          "quantity": 1.5,
+          "amount": 1.5,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         }
       ],
@@ -5810,42 +5810,42 @@
       "ingredients": [
         {
           "name_id": "champiñion",
-          "quantity": 1,
+          "amount": 1,
           "unit": "kg"
         },
         {
           "name_id": "vinagre_alcohol",
-          "quantity": 1,
+          "amount": 1,
           "unit": "lt"
         },
         {
           "name_id": "agua",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "lt"
         },
         {
           "name_id": "limon",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "ajo",
-          "quantity": 2,
+          "amount": 2,
           "unit": "diente"
         },
         {
           "name_id": "romero",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "albahaca",
-          "quantity": 1,
+          "amount": 1,
           "unit": "unidad"
         },
         {
           "name_id": "aceite_girasol",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
@@ -5873,42 +5873,42 @@
       "ingredients": [
         {
           "name_id": "manteca",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         },
         {
           "name_id": "aceite_oliva",
-          "quantity": 3,
+          "amount": 3,
           "unit": "cucharada"
         },
         {
           "name_id": "cebolla_verdeo",
-          "quantity": 4,
+          "amount": 4,
           "unit": "unidad"
         },
         {
           "name_id": "champiñion",
-          "quantity": 1,
+          "amount": 1,
           "unit": "taza"
         },
         {
           "name_id": "espinaca",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "crema_leche_descremada",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 8,
+          "amount": 8,
           "unit": "unidad"
         },
         {
           "name_id": "queso_cremoso",
-          "quantity": 0.5,
+          "amount": 0.5,
           "unit": "taza"
         }
       ],
@@ -5938,42 +5938,42 @@
       "ingredients": [
         {
           "name_id": "harina_leudante",
-          "quantity": 280,
+          "amount": 280,
           "unit": "gr"
         },
         {
           "name_id": "azucar",
-          "quantity": 300,
+          "amount": 300,
           "unit": "gr"
         },
         {
           "name_id": "manteca",
-          "quantity": 100,
+          "amount": 100,
           "unit": "gr"
         },
         {
           "name_id": "manzana",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "leche_liquida",
-          "quantity": 100,
+          "amount": 100,
           "unit": "ml"
         },
         {
           "name_id": "huevo_gallina",
-          "quantity": 2,
+          "amount": 2,
           "unit": "unidad"
         },
         {
           "name_id": "vainilla_esencia",
-          "quantity": 1,
+          "amount": 1,
           "unit": "cucharada"
         },
         {
           "name_id": "azucar_impalpable",
-          "quantity": 2,
+          "amount": 2,
           "unit": "cucharada"
         }
       ],
