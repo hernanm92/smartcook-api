@@ -33,7 +33,8 @@ class RecipePerUser < ActiveRecord::Base
   validates :validated, inclusion: { in: [true, false] }
   validates :vote, inclusion: { in: [nil, 1, 2, 3, 4, 5] }
 
-  before_update :validate_recipe, if: :positive_validation_changed? # se hace befire_update, porque en el after la receta ya tiene que estar validada para darle la insignia
+  before_create :validate_recipe, if: :positive_validation_changed?
+  before_update :validate_recipe, if: :positive_validation_changed? # se hace before_update, porque en el after la receta ya tiene que estar validada para darle la insignia
 
   after_create :update_badges_validate_recipe
   after_update :update_badges_validate_recipe, if: :validated_changed? # cuando valida cualquier receta
