@@ -30,5 +30,6 @@ class Session < ActiveRecord::Base
   def validate_user
     user = User.find_by_username username
     raise StandardError, 'Incorrect user or password' unless user && (user.password == password)
+    raise StandardError, 'User is disabled' unless user.enabled == true
   end
 end
