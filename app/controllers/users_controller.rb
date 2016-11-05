@@ -46,7 +46,8 @@ class UsersController < ApplicationController
       vegetarian: params[:vegetarian],
       vegan: params[:vegan],
       celiac: params[:celiac],
-      diabetic: params[:diabetic]
+      diabetic: params[:diabetic],
+      admin: params[:admin] # solo lo agrego para nuestras migraciones
     }
   end
 

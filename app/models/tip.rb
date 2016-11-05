@@ -18,6 +18,13 @@
 #  username    :string
 
 class Tip < ActiveRecord::Base
-  validates :description, presence: true
-  validates :username, presence: true
+  belongs_to :recipe
+
+  validates :username, presence: true, length: { in: 5..15 }
+  validates :recipe_id, presence: true, numericality: { only_integer: true }
+  validates :description, presence: true, length: { in: 5..300 }
+
+  def user
+    User.find_by_username(self.username)
+  end
 end
