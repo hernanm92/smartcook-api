@@ -8,12 +8,13 @@ class RecipesController < ApplicationController
     @recipes = RecipePerUser.where(username: params[:username], favorite: true).map(&:recipe) if params[:username] && params[:favorite] == 'true'
     @recipes = RecipePerUser.where(username: params[:username], owner: true).map(&:recipe) if params[:username] && params[:owner]
     @recipes = Recipe.all unless @recipes
-    @recipes = @recipes.select { |recipe| recipe.validated == true } # muestro solo las validadas
+    @recipes = @recipes.select { |recipe| recipe.validated == true } unless params[:owner] # muestro solo las validadas (excepto mis recetas)
     render json: @recipes
   end
 
   def validation_index
-    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username]).map(&:recipe) if params[:username]
+    @recipes = Recipe.where(validated: false) - RecipePerUser.where(username: params[:username], owner: true).map(&:recipe) - RecipePerUser.where(username: params[:username], validated: true).map(&:recipe) if params[:username]
+    # resto las recetas que soy owner o ya valide
     render json: @recipes
   end
 
