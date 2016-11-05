@@ -6,7 +6,7 @@
       "name": "Admin User",
       "email": "admin@gmail.com",
       "password": "password",
-      "image_url": "profile/admin",
+      "avatar": "profile/admin",
       "admin": true,
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
@@ -17,7 +17,7 @@
       "name": "Hernan Maschwitz",
       "email": "hernanm992@gmail.com",
       "password": "password",
-      "image_url": "profile/hmaschwitz",
+      "avatar": "profile/hmaschwitz",
       "vegetarian": true,
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
@@ -28,7 +28,7 @@
       "name": "Agustin Modugno",
       "email": "amodugno@gmail.com",
       "password": "password",
-      "image_url": "profile/amodugno",
+      "avatar": "profile/amodugno",
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
     },
@@ -38,7 +38,7 @@
       "name": "Matias Leon Peralta",
       "email": "mperalta@gmail.com",
       "password": "password",
-      "image_url": "profile/mperalta",
+      "avatar": "profile/mperalta",
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
     },
@@ -48,7 +48,7 @@
       "name": "Gonzalo Fernandez",
       "email": "gfernandez@gmail.com",
       "password": "password",
-      "image_url": "profile/gfernandez",
+      "avatar": "profile/gfernandez",
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
     }
