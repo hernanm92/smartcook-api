@@ -2,18 +2,18 @@
   "ingredients": [
     {
       "id": 1,
-      "name": "Pollo",
-      "name_id": "pollo",
-      "food_category_id": 1,
-      "image_url": "img/chicken.jpg",
+      "name": "Laurel",
+      "name_id": "laurel",
+      "food_category_id": 3,
+      "image_url": "img/laurel.jpg",
       "calories": 1,
       "proteins": 1,
       "carbohydrates": 1,
       "fats": 1,
       "celiac": true,
-      "vegan": false,
-      "vegetarian": false,
-      "diabetic": false
+      "vegan": true,
+      "vegetarian": true,
+      "diabetic": true
     },
     {
       "id": 2,
@@ -4060,21 +4060,6 @@
       "proteins": 4.3,
       "carbohydrates": 9,
       "fats": 0.9,
-      "celiac": true,
-      "vegan": true,
-      "vegetarian": true,
-      "diabetic": true
-    },
-    {
-      "id": 273,
-      "name": "Laurel",
-      "name_id": "laurel",
-      "food_category_id": 3,
-      "image_url": "img/laurel.jpg",
-      "calories": 1,
-      "proteins": 1,
-      "carbohydrates": 1,
-      "fats": 1,
       "celiac": true,
       "vegan": true,
       "vegetarian": true,

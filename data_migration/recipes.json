@@ -3851,6 +3851,70 @@
       "tips": []
     },
     {
+      "id": 64,
+      "name": "Pastel de manzana",
+      "dificulty": "Media",
+      "image_url": "recipe_img/pastel-manzana.jpg",
+      "stars": 4,
+      "description": "Este riquisimo pastel con manzana, lo vi hacer en la tele, y me sencill, práctico y rico que no dudé en publicarlo.",
+      "validated": true,
+      "celiac": false,
+      "vegan": false,
+      "vegetarian": true,
+      "diabetic": false,
+      "ingredients": [
+        {
+          "name_id": "harina_leudante",
+          "amount": 280,
+          "unit": "gr"
+        },
+        {
+          "name_id": "azucar",
+          "amount": 300,
+          "unit": "gr"
+        },
+        {
+          "name_id": "manteca",
+          "amount": 100,
+          "unit": "gr"
+        },
+        {
+          "name_id": "manzana",
+          "amount": 2,
+          "unit": "unidad"
+        },
+        {
+          "name_id": "leche_liquida",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "name_id": "huevo_gallina",
+          "amount": 2,
+          "unit": "unidad"
+        },
+        {
+          "name_id": "vainilla_esencia",
+          "amount": 1,
+          "unit": "cucharada"
+        },
+        {
+          "name_id": "azucar_impalpable",
+          "amount": 2,
+          "unit": "cucharada"
+        }
+      ],
+      "steps": [
+        "En un bol mezclar la harina y el azúcar, incorporar la manteca cortada bien fría, unir la preparación formando un arenado.",
+        "Enmantecar y enharinar un molde , colocar la mitad de la mezcla arenosa.",
+        "Ubicar rodajas de manzana y cubrir con la mitad restante de la mezcla.",
+        "Batir aparte los huevos, la leche y la esencia.",
+        "Verter sobre la preparación separando un poquito con un tenedor así penetra mejor la mezcla líquida.",
+        "Una vez que se absorvio el liquido, espolvorear con azúcar, y llevar a horno moderado 50 minutos."
+      ],
+      "tips": []
+    },
+    {
       "id": 65,
       "name": "Quinoa cocida",
       "dificulty": "Facil",
@@ -5922,70 +5986,6 @@
       "tips": [
         "Se puede servir con arroz graneado y verduras verdes. Si hay un diabetico presente usar arroz integral en vez de arroz blanco"
       ]
-    },
-    {
-      "id": 100,
-      "name": "Pastel de manzana",
-      "dificulty": "Media",
-      "image_url": "recipe_img/pastel-manzana.jpg",
-      "stars": 4,
-      "description": "Este riquisimo pastel con manzana, lo vi hacer en la tele, y me sencill, práctico y rico que no dudé en publicarlo.",
-      "validated": true,
-      "celiac": false,
-      "vegan": false,
-      "vegetarian": true,
-      "diabetic": false,
-      "ingredients": [
-        {
-          "name_id": "harina_leudante",
-          "amount": 280,
-          "unit": "gr"
-        },
-        {
-          "name_id": "azucar",
-          "amount": 300,
-          "unit": "gr"
-        },
-        {
-          "name_id": "manteca",
-          "amount": 100,
-          "unit": "gr"
-        },
-        {
-          "name_id": "manzana",
-          "amount": 2,
-          "unit": "unidad"
-        },
-        {
-          "name_id": "leche_liquida",
-          "amount": 100,
-          "unit": "ml"
-        },
-        {
-          "name_id": "huevo_gallina",
-          "amount": 2,
-          "unit": "unidad"
-        },
-        {
-          "name_id": "vainilla_esencia",
-          "amount": 1,
-          "unit": "cucharada"
-        },
-        {
-          "name_id": "azucar_impalpable",
-          "amount": 2,
-          "unit": "cucharada"
-        }
-      ],
-      "steps": [
-        "En un bol mezclar la harina y el azúcar, incorporar la manteca cortada bien fría, unir la preparación formando un arenado.",
-        "Enmantecar y enharinar un molde , colocar la mitad de la mezcla arenosa.",
-        "Ubicar rodajas de manzana y cubrir con la mitad restante de la mezcla.",
-        "Batir aparte los huevos, la leche y la esencia.",
-        "Verter sobre la preparación separando un poquito con un tenedor así penetra mejor la mezcla líquida.",
-        "Una vez que se absorvio el liquido, espolvorear con azúcar, y llevar a horno moderado 50 minutos."
-      ],
-      "tips": []
     }
   ]
 }
