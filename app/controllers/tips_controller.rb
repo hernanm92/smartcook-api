@@ -29,15 +29,15 @@ class TipsController < ApplicationController
 
   def tip_find_params
     {
-        id: params.require(:id) # id es el que le viene por url
+      id: params.require(:id) # id es el que le viene por url
     }
   end
 
   def tip_create_params
     {
-        description: params.require(:description),
-        recipe_id: params.require(:recipe_id),
-        username: params.require(:username)
+      recipe_id: params.require(:recipe_id),
+      username: params.require(:username),
+      description: params.require(:description)
     }
   end
 end

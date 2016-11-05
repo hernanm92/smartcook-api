@@ -79,7 +79,18 @@ recipes.each do |recipe|
     )
     sleep(0.2)
   end
+
+  p 'TIPS'
+  recipe['tips'].each do |tip|
+    tip_body = { recipe_id: recipe['id'], username: 'admin', description: tip }
+    p tip_body
+    Typhoeus.post(
+      'http://localhost:5000/tips',
+      body: tip_body.to_json,
+      headers: { 'Content-Type' => 'application/json' }
+    )
+    sleep(0.2)
+  end
+
   sleep(0.2)
 end
-
-# faltan los tips
