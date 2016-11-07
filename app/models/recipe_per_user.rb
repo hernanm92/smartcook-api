@@ -68,14 +68,14 @@ class RecipePerUser < ActiveRecord::Base
   def update_badges_validate_recipe
     user = User.find_by_username(username)
     badges_left = Badge.where(badge_type: 'validate') - user.badges
-    validated_recipes_amount = RecipePerUser.count(username: username, validated: true)
+    validated_recipes_amount = RecipePerUser.where(username: username, validated: true).count
     badges_left.each do |badge|
       BadgePerUser.create!(username: username, badge_id: badge.id) if badge.amount == validated_recipes_amount
     end
   end
 
   def update_badges_create_recipe
-    # TODO: optimizar
+    return unless positive_validation_changed? to: true
     recipe = Recipe.find_by_id(recipe_id)
     user = recipe.owner
 
@@ -111,6 +111,7 @@ class RecipePerUser < ActiveRecord::Base
   end
 
   def validate_recipe
+    return unless positive_validation_changed? to: true
     validations_needed = [{ from_users: 1, to_users: 50, percentage: 0.1 }, { from_users: 50, users: 200, percentage: 0.05 }, { from_users: 200, users: 100000, percentage: 0.01 }]
     # porcentaje de validacion segun cantidad de usuarios (lo ideal seria una funcion logaritmica)
 
@@ -129,9 +130,9 @@ class RecipePerUser < ActiveRecord::Base
 
   def update_likes
     RecipePerUser.reset_column_information
-    self.recipe.update!(likes: self.recipe.likes + 1)  if like_changed? from: false, to: true # tengo que agregar un like a la receta
-    self.recipe.update!(likes: self.recipe.likes + 1)  if like_changed? from: nil, to: true
-    self.recipe.update!(likes: self.recipe.likes - 1)  if like_changed? from: true, to: false # tengo que sacarle un like a la receta
+    self.recipe.update!(likes: self.recipe.likes + 1) if like_changed? from: false, to: true # tengo que agregar un like a la receta
+    self.recipe.update!(likes: self.recipe.likes + 1) if like_changed? from: nil, to: true
+    self.recipe.update!(likes: self.recipe.likes - 1) if like_changed? from: true, to: false # tengo que sacarle un like a la receta
   end
 
   def update_stars

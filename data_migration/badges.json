@@ -6,7 +6,7 @@
       "description": "Has creado una receta para veganos!",
       "badge_type": "vegan",
       "amount": 1,
-      "image_url": "img/vegan_bronze.jpg"
+      "image_url": "img/badges/vegan_bronze.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "Has creado 5 recetas para veganos!",
       "badge_type": "vegan",
       "amount": 5,
-      "image_url": "img/vegan_silver.jpg"
+      "image_url": "img/badges/vegan_silver.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "description": "Has creado 10 recetas para veganos!",
       "badge_type": "vegan",
       "amount": 10,
-      "image_url": "img/vegan_gold.jpg"
+      "image_url": "img/badges/vegan_gold.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "Has creado una receta para vegetarianos!",
       "badge_type": "vegetarian",
       "amount": 1,
-      "image_url": "img/vegetarian_bronze.jpg"
+      "image_url": "img/badges/vegetarian_bronze.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "description": "Has creado 5 recetas para vegetarianos!",
       "badge_type": "vegetarian",
       "amount": 5,
-      "image_url": "img/vegetarian_silver.jpg"
+      "image_url": "img/badges/vegetarian_silver.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "description": "Has creado 10 recetas para vegetarianos!",
       "badge_type": "vegetarian",
       "amount": 10,
-      "image_url": "img/vegetarian_gold.jpg"
+      "image_url": "img/badges/vegetarian_gold.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "description": "Has creado una receta para celiacos!",
       "badge_type": "celiac",
       "amount": 1,
-      "image_url": "img/celiac_bronze.jpg"
+      "image_url": "img/badges/celiac_bronze.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "description": "Has creado 5 recetas para celiacos!",
       "badge_type": "celiac",
       "amount": 5,
-      "image_url": "img/celiac_silver.jpg"
+      "image_url": "img/badges/celiac_silver.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "description": "Has creado 10 recetas para celiacos!",
       "badge_type": "celiac",
       "amount": 10,
-      "image_url": "img/celiac_gold.jpg"
+      "image_url": "img/badges/celiac_gold.jpg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "description": "Has creado una receta para diabeticos!",
       "badge_type": "diabetic",
       "amount": 1,
-      "image_url": "img/diabetic_bronze.jpg"
+      "image_url": "img/badges/diabetic_bronze.jpg"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "description": "Has creado 5 recetas para diabeticos!",
       "badge_type": "diabetic",
       "amount": 5,
-      "image_url": "img/diabetic_silver.jpg"
+      "image_url": "img/badges/diabetic_silver.jpg"
     },
     {
       "id": 12,
@@ -94,15 +94,15 @@
       "description": "Has creado 10 recetas para diabeticos!",
       "badge_type": "diabetic",
       "amount": 10,
-      "image_url": "img/diabetic_gold.jpg"
+      "image_url": "img/badges/diabetic_gold.jpg"
     },
     {
       "id": 13,
       "name": "Bronce Validador",
-      "description": "Has validado 10 receta!",
+      "description": "Has validado 10 recetas!",
       "badge_type": "validate",
       "amount": 10,
-      "image_url": "img/validate_bronze.jpg"
+      "image_url": "img/badges/validate_bronze.jpg"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "description": "Has validado 50 recetas!",
       "badge_type": "validate",
       "amount": 50,
-      "image_url": "img/validate_silver.jpg"
+      "image_url": "img/badges/validate_silver.jpg"
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "description": "Has validado 100 recetas!",
       "badge_type": "validate",
       "amount": 100,
-      "image_url": "img/validate_gold.jpg"
+      "image_url": "img/badges/validate_gold.jpg"
     }
   ]
 }
