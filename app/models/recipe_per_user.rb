@@ -149,10 +149,7 @@ class RecipePerUser < ActiveRecord::Base
   end
 
   def update_recipe
-    p '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11'
     recipe = Recipe.find(recipe_id)
-    p "validated: #{recipe.validated}"
-    p "original: #{recipe.original}"
     recipe.validate_update if recipe && recipe.validated && recipe.original
   end
 end

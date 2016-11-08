@@ -51,20 +51,20 @@ class Recipe < ActiveRecord::Base
   end
 
   def validate_update
-    p '-------------------------------------------------------------------------------------------------------'
-    p '-------------------------------------------------------------------------------------------------------'
-    # se pueden editar todos los campos?
     original_recipe = Recipe.find_by_id(self.original)
-    p 'lllllllllllllllllllllllllllllllllll'
-    p original_recipe
     original_recipe.update!(name: self.name, image_url: self.image_url, description: self.description, steps: self.steps)
-    p original_recipe
-    p '????????????????????????????????????'
-    # se pueden cambiar los ingredientes
+
+    original_recipe.ingredients_per_recipes.destroy_all
+    self.ingredients_per_recipes.each do |ingredient_per_recipe|
+      IngredientPerRecipe.create!(
+        recipe_id: original_recipe.id,
+        ingredient_id: ingredient_per_recipe.ingredient_id,
+        amount: ingredient_per_recipe.amount,
+        unit: ingredient_per_recipe.unit
+      )
+    end
 
     self.destroy!
-
-    # original_recipe.ingredients.destroy_all
   end
 
   private
