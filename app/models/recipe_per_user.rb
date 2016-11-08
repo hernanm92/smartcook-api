@@ -48,6 +48,10 @@ class RecipePerUser < ActiveRecord::Base
   after_create :update_stars, if: :stars_changed?
   after_update :update_stars, if: :stars_changed?
 
+  # TIENE QUE SER EL ULTIMO CALLBACK
+  after_create :update_recipe
+  after_update :update_recipe, if: :validated_changed?
+
   def update!(params)
     params[:user_id] = user_id
     super params
@@ -142,5 +146,10 @@ class RecipePerUser < ActiveRecord::Base
     amount_of_stars = recipes_per_users_with_stars.count
     stars_sum = recipes_per_users_with_stars.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.stars }
     self.recipe.update!(stars: stars_sum.to_f / amount_of_stars.to_f)
+  end
+
+  def update_recipe
+    recipe = Recipe.find(recipe_id)
+    recipe.validate_update if recipe && recipe.validated && recipe.original
   end
 end

@@ -24,6 +24,7 @@ class IngredientPerRecipe < ActiveRecord::Base
 
   after_create :update_recipe_restrictions
   after_destroy :update_recipe_restrictions
+  # en el after_update no hace falta porque si solo se cambia amount o unit las restricciones son las mismas
 
   def self.find_by!(params)
     params[:id] = params.delete(:id) if params[:id]
