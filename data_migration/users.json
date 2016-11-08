@@ -51,6 +51,46 @@
       "avatar": "profile/gfernandez",
       "gender": "male",
       "birthdate": "1992-10-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 6,
+      "username": "jcanibal",
+      "name": "Jorge Canibal",
+      "email": "jcanibal@gmail.com",
+      "password": "password",
+      "avatar": "profile/jcanibal",
+      "gender": "male",
+      "birthdate": "1992-11-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 7,
+      "username": "vriano",
+      "name": "Vegeta Riano",
+      "email": "vriano@gmail.com",
+      "password": "password",
+      "avatar": "profile/vriano",
+      "gender": "male",
+      "birthdate": "1992-11-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 8,
+      "username": "jacintac",
+      "name": "Jacinta Ck",
+      "email": "jacintac@gmail.com",
+      "password": "password",
+      "avatar": "profile/jacintac",
+      "gender": "female",
+      "birthdate": "1992-11-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 9,
+      "username": "amoreno",
+      "name": "Azucar Moreno",
+      "email": "amoreno@gmail.com",
+      "password": "password",
+      "avatar": "profile/amoreno",
+      "gender": "male",
+      "birthdate": "1992-11-10T00:00:00.000-03:00"
     }
   ]
 }
