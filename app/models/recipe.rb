@@ -28,7 +28,8 @@ class Recipe < ActiveRecord::Base
   has_many :recipes_per_users, dependent: :destroy, class_name: 'RecipePerUser'
   has_many :users, through: :recipes_per_users
 
-  validates :name, presence: true, uniqueness: true, length: { in: 5..50 }
+  validates :name, presence: true, length: { in: 5..50 }
+  # uniqueness: true (que la validacion del nombre se haga a nivel front, para el update necesito repetir el nombre)
   validates :description, presence: true, length: { in: 5..300 }
   validates :steps, presence: true # , length: { in: 5..50 }
   validates :likes, numericality: { only_integer: true }
@@ -47,6 +48,21 @@ class Recipe < ActiveRecord::Base
 
   def owner
     self.recipes_per_users.where(owner: true).map(&:user).first
+  end
+
+  def validate_update
+    p '-------------------------------------------------------------------------------------------------------'
+    p '-------------------------------------------------------------------------------------------------------'
+    # se pueden editar todos los campos?
+    original_recipe = Recipe.find_by_id(self.original)
+    p 'lllllllllllllllllllllllllllllllllll'
+    p original_recipe
+    original_recipe.update!(name: self.name, image_url: self.image_url, description: self.description, steps: self.steps)
+    p original_recipe
+    p '????????????????????????????????????'
+    # se pueden cambiar los ingredientes
+
+    # original_recipe.ingredients.destroy_all
   end
 
   private

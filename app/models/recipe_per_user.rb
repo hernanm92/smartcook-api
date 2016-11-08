@@ -48,6 +48,11 @@ class RecipePerUser < ActiveRecord::Base
   after_create :update_stars, if: :stars_changed?
   after_update :update_stars, if: :stars_changed?
 
+  # TIENE QUE SER EL ULTIMO CALLBACK
+  after_create :destroy_updated_recipe
+  after_update :destroy_updated_recipe, if: :validated_changed?
+  # tengo que borrar la receta validada despues de que intente editar recipe_per_user
+
   def update!(params)
     params[:user_id] = user_id
     super params
@@ -125,6 +130,7 @@ class RecipePerUser < ActiveRecord::Base
     if positive_validations_amount >= users_needed
       recipe = Recipe.find(recipe_id)
       recipe.update!(validated: true)
+      recipe.validate_update if recipe && recipe.original # si estoy validando un update
     end
   end
 
@@ -142,5 +148,13 @@ class RecipePerUser < ActiveRecord::Base
     amount_of_stars = recipes_per_users_with_stars.count
     stars_sum = recipes_per_users_with_stars.to_a.inject(0) { |sum, recipe_per_user| sum + recipe_per_user.stars }
     self.recipe.update!(stars: stars_sum.to_f / amount_of_stars.to_f)
+  end
+
+  def destroy_updated_recipe
+    p '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11'
+    recipe = Recipe.find(recipe_id)
+    p "validated: #{recipe.validated}"
+    p "original: #{recipe.original}"
+    recipe.destroy! if recipe.validated && recipe.original
   end
 end
