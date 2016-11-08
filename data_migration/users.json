@@ -69,6 +69,7 @@
       "email": "vriano@gmail.com",
       "password": "password",
       "avatar": "profile/vriano",
+      "vegetarian": true,
       "gender": "male",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
     },
@@ -79,6 +80,7 @@
       "email": "jacintac@gmail.com",
       "password": "password",
       "avatar": "profile/jacintac",
+      "celiac": true,
       "gender": "female",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
     },
@@ -89,6 +91,18 @@
       "email": "amoreno@gmail.com",
       "password": "password",
       "avatar": "profile/amoreno",
+      "diabetic": true,
+      "gender": "male",
+      "birthdate": "1992-11-10T00:00:00.000-03:00"
+    },
+    {
+      "id": 10,
+      "username": "fmonada",
+      "name": "Franco Monada",
+      "email": "fmonada@gmail.com",
+      "password": "password",
+      "avatar": "profile/fmonada",
+      "vegan": true,
       "gender": "male",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
     }
