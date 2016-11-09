@@ -4080,6 +4080,11 @@
           "name_id": "agua",
           "amount": 1.5,
           "unit": "lt"
+        },
+        {
+          "name_id": "ajo",
+          "amount": 1,
+          "unit": "diente"
         }
       ],
       "steps": [
@@ -5986,6 +5991,105 @@
       "tips": [
         "Se puede servir con arroz graneado y verduras verdes. Si hay un diabetico presente usar arroz integral en vez de arroz blanco"
       ]
+    },
+    {
+      "id": 100,
+      "name": "Milanesa de nalga con pure mixto",
+      "dificulty": "Facil",
+      "image_url": "recipe_img/milanesa-con-pure-mixto.jpg",
+      "stars": 4,
+      "description": "Milanesa casera acompañada con pure mixto, ideal para cocinarle a tus hijos.",
+      "validated": false,
+      "celiac": false,
+      "vegan": false,
+      "vegetarian": false,
+      "diabetic": false,
+      "ingredients": [
+        {
+          "name_id": "nalga_tapa",
+          "amount": 500,
+          "unit": "gr"
+        },
+        {
+          "name_id": "papa",
+          "amount": 2,
+          "unit": "unidad"
+        },
+        {
+          "name_id": "zapallo",
+          "amount": 2,
+          "unit": "unidad"
+        },
+        {
+          "name_id": "pan_rallado",
+          "amount": 150,
+          "unit": "gr"
+        },
+        {
+          "name_id": "perejil",
+          "amount": 20,
+          "unit": "gr"
+        },
+        {
+          "name_id": "huevo_gallina",
+          "amount": 2,
+          "unit": "unidad"
+        }
+      ],
+      "steps": [
+        "Cortar las tapas de nalga en tiras y salar a gusto",
+        "Mezclar los huevos con el perejil picado en un bowl",
+        "Sumergir las tiras de tapa de nalga en la mezcla y luego pasar por pan rayado",
+        "Hornear las tiras rebozadas durante 30 minutos a fuego medio",
+        "Para el puré hervir las papas y zapallo en una cacerola durante 40 mintos",
+        "Pisar los zapallos y papas hervidas y agregar sal a gusto",
+        "Servir en un plato dos milanesas acompañadas con pure mixto"
+      ],
+      "tips": []
+    },
+    {
+      "id": 101,
+      "name": "Arroz con atun",
+      "dificulty": "Facil",
+      "image_url": "recipe_img/arroz-con-atun.jpg",
+      "stars": 4,
+      "description": "Arroz con atun facil de realizar para salir de un aputo. No te llevara mas de 30 minutos.",
+      "validated": false,
+      "celiac": true,
+      "vegan": false,
+      "vegetarian": false,
+      "diabetic": false,
+      "ingredients": [
+        {
+          "name_id": "arroz",
+          "amount": 300,
+          "unit": "gr"
+        },
+        {
+          "name_id": "atun",
+          "amount": 1,
+          "unit": "lata"
+        },
+        {
+          "name_id": "arvejas",
+          "amount": 1,
+          "unit": "lata"
+        },
+        {
+          "name_id": "choclo",
+          "amount": 1,
+          "unit": "lata"
+        }
+      ],
+      "steps": [
+        "Hervir el arroz en una cacerola durante 20 minutos, agregando sal a gusto",
+        "Escurrir el arroz y pasarlo a una fuente",
+        "Abrir la lata de atun y agregarlo a la fuente",
+        "Abrir la lata de choclo y agregarlo a la fuente",
+        "Abrir la lata de arvejas y agregarlas a la fuente",
+        "Por ultimo mezclar hasta que todos los ingredientes queden bien distribuidos"
+      ],
+      "tips": []
     }
   ]
 }
