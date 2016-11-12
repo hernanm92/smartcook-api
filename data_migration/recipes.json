@@ -6037,13 +6037,13 @@
         }
       ],
       "steps": [
-        "Cortar las tapas de nalga en tiras y salar a gusto",
-        "Mezclar los huevos con el perejil picado en un bowl",
-        "Sumergir las tiras de tapa de nalga en la mezcla y luego pasar por pan rayado",
-        "Hornear las tiras rebozadas durante 30 minutos a fuego medio",
-        "Para el puré hervir las papas y zapallo en una cacerola durante 40 mintos",
-        "Pisar los zapallos y papas hervidas y agregar sal a gusto",
-        "Servir en un plato dos milanesas acompañadas con pure mixto"
+        "Cortar las tapas de nalga en tiras y salar a gusto.",
+        "Mezclar los huevos con el perejil picado en un bowl.",
+        "Sumergir las tiras de tapa de nalga en la mezcla y luego pasar por pan rayado.",
+        "Hornear las tiras rebozadas durante 30 minutos a fuego medio.",
+        "Para el puré hervir las papas y zapallo en una cacerola durante 40 mintos.",
+        "Pisar los zapallos y papas hervidas y agregar sal a gusto.",
+        "Servir en un plato dos milanesas acompañadas con pure mixto."
       ],
       "tips": []
     },
@@ -6082,12 +6082,57 @@
         }
       ],
       "steps": [
-        "Hervir el arroz en una cacerola durante 20 minutos, agregando sal a gusto",
-        "Escurrir el arroz y pasarlo a una fuente",
-        "Abrir la lata de atun y agregarlo a la fuente",
-        "Abrir la lata de choclo y agregarlo a la fuente",
-        "Abrir la lata de arvejas y agregarlas a la fuente",
-        "Por ultimo mezclar hasta que todos los ingredientes queden bien distribuidos"
+        "Hervir el arroz en una cacerola durante 20 minutos, agregando sal a gusto.",
+        "Escurrir el arroz y pasarlo a una fuente.",
+        "Abrir la lata de atun y agregarlo a la fuente.",
+        "Abrir la lata de choclo y agregarlo a la fuente.",
+        "Abrir la lata de arvejas y agregarlas a la fuente.",
+        "Por ultimo mezclar hasta que todos los ingredientes queden bien distribuidos."
+      ],
+      "tips": []
+    },
+    {
+      "id": 102,
+      "name": "Grille de pollo con papas y huevo frito",
+      "dificulty": "Facil",
+      "image_url": "img/recipe_img/pollo-papa-y-huevo.png",
+      "stars": 4,
+      "description": "Suprema de pollo a la plancha acompañado con frituras de papa y huevo, especial para domingo a la tarde.",
+      "validated": true,
+      "celiac": true,
+      "vegan": false,
+      "vegetarian": false,
+      "diabetic": false,
+      "ingredients": [
+        {
+          "name_id": "papa",
+          "amount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name_id": "pechuga_pollo",
+          "amount": 200,
+          "unit": "gr"
+        },
+        {
+          "name_id": "huevo_gallina",
+          "amount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name_id": "morron_rojo",
+          "amount": 50,
+          "unit": "gr"
+        }
+      ],
+      "steps": [
+        "Lavar y pelar la papa y cortarla en trozos pequeños.",
+        "Lavar el morron y cortarlo con corte juliana.",
+        "Colocar la plancha a fuego minimo, y agregar la pechuga de pollo fileteada.",
+        "En una sarten freir el morron junto con las papas.",
+        "Luego de 10 minutos dar vuelta el pollo y revisar las papas.",
+        "Una vez que este dorado el pollo de ambos lados retirarlo de la plancha.",
+        "Para finalizar retirar las papas cuando esten doradas, y freir el huevo."
       ],
       "tips": []
     }
