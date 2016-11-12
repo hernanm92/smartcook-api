@@ -126,7 +126,7 @@ class RecipePerUser < ActiveRecord::Base
 
     positive_validations_amount = (RecipePerUser.where(recipe_id: recipe_id, positive_validation: true).count - RecipePerUser.where(recipe_id: recipe_id, positive_validation: false).count) + 1 # como estas en el before update, todavia no esta considerando la actual
     # validaciones positivas - negativas
-    if positive_validations_amount >= users_needed
+    if positive_validations_amount >= users_needed.to_i # redondea para abajo
       recipe = Recipe.find(recipe_id)
       recipe.update!(validated: true)
     end
