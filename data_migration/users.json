@@ -68,7 +68,7 @@
       "name": "Jorge Canibal",
       "email": "jcanibal@gmail.com",
       "password": "password",
-      "avatar": "profile/jcanibal",
+      "avatar": "assets/img/profile/jcanibal.jpg",
       "gender": "male",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
     },
@@ -78,7 +78,7 @@
       "name": "Vegeta Riano",
       "email": "vriano@gmail.com",
       "password": "password",
-      "avatar": "profile/vriano",
+      "avatar": "assets/img/profile/vriano.jpg",
       "vegetarian": true,
       "gender": "male",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
@@ -89,7 +89,7 @@
       "name": "Jacinta Ck",
       "email": "jacintac@gmail.com",
       "password": "password",
-      "avatar": "profile/jacintac",
+      "avatar": "assets/img/profile/jacintac.jpg",
       "celiac": true,
       "gender": "female",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
@@ -111,7 +111,7 @@
       "name": "Franco Monada",
       "email": "fmonada@gmail.com",
       "password": "password",
-      "avatar": "profile/fmonada",
+      "avatar": "assets/img/profile/fmonada.jpg",
       "vegan": true,
       "gender": "male",
       "birthdate": "1992-11-10T00:00:00.000-03:00"
