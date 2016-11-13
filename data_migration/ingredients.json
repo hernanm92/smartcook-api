@@ -47,7 +47,7 @@
     },
     {
       "id": 4,
-      "name": "Harina(Trigo)",
+      "name": "Harina (Trigo)",
       "name_id": "harina_trigo",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-trigo.jpg",
@@ -1652,7 +1652,7 @@
     },
     {
       "id": 111,
-      "name": "Calabaza(Semilla)",
+      "name": "Calabaza (Semilla)",
       "name_id": "calabaza_semilla",
       "food_category_id": 12,
       "image_url": "img/ingredients/calabaza-semilla.jpg",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": 113,
-      "name": "Granada(Semilla)",
+      "name": "Granada (Semilla)",
       "name_id": "granada_semilla",
       "food_category_id": 12,
       "image_url": "img/ingredients/granada-semilla.jpg",
@@ -1727,7 +1727,7 @@
     },
     {
       "id": 116,
-      "name": "Amapola(Semilla)",
+      "name": "Amapola (Semilla)",
       "name_id": "amapola_semilla",
       "food_category_id": 12,
       "image_url": "img/ingredients/amapola.jpg",
@@ -1787,7 +1787,7 @@
     },
     {
       "id": 120,
-      "name": "Manteca(Cerdo)",
+      "name": "Manteca (Cerdo)",
       "name_id": "manteca_cerdo",
       "food_category_id": 14,
       "image_url": "img/ingredients/cerdo-manteca.jpg",
@@ -1802,7 +1802,7 @@
     },
     {
       "id": 121,
-      "name": "Manteca(Vacuna)",
+      "name": "Manteca (Vacuna)",
       "name_id": "manteca_vacuna",
       "food_category_id": 14,
       "image_url": "img/ingredients/cebo-vacuno.jpg",
@@ -1817,7 +1817,7 @@
     },
     {
       "id": 122,
-      "name": "Aceite(Pescado)",
+      "name": "Aceite (Pescado)",
       "name_id": "aceite_pescado",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-pez.jpg",
@@ -1832,7 +1832,7 @@
     },
     {
       "id": 123,
-      "name": "Aceite(Maiz)",
+      "name": "Aceite (Maiz)",
       "name_id": "aceite_maiz",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-maiz.jpg",
@@ -1847,7 +1847,7 @@
     },
     {
       "id": 124,
-      "name": "Aceite(Soja)",
+      "name": "Aceite (Soja)",
       "name_id": "aceite_soja",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-soja.jpg",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": 125,
-      "name": "Aceite(Girasol)",
+      "name": "Aceite (Girasol)",
       "name_id": "aceite_girasol",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-girasol.jpg",
@@ -1877,7 +1877,7 @@
     },
     {
       "id": 126,
-      "name": "Aceite(Sesamo)",
+      "name": "Aceite (Sesamo)",
       "name_id": "aceite_sesamo",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-sesamo.jpg",
@@ -1892,7 +1892,7 @@
     },
     {
       "id": 127,
-      "name": "Aceite(Oliva)",
+      "name": "Aceite (Oliva)",
       "name_id": "aceite_oliva",
       "food_category_id": 14,
       "image_url": "img/ingredients/aceite-oliva.jpg",
@@ -1907,7 +1907,7 @@
     },
     {
       "id": 128,
-      "name": "Leche(Liquida)",
+      "name": "Leche (Liquida)",
       "name_id": "leche_liquida",
       "food_category_id": 7,
       "image_url": "img/ingredients/leche.jpg",
@@ -1922,7 +1922,7 @@
     },
     {
       "id": 129,
-      "name": "Leche(Polvo)",
+      "name": "Leche (Polvo)",
       "name_id": "leche_polvo",
       "food_category_id": 7,
       "image_url": "img/ingredients/leche-polvo.jpg",
@@ -1937,7 +1937,7 @@
     },
     {
       "id": 130,
-      "name": "Queso(Cremoso)",
+      "name": "Queso (Cremoso)",
       "name_id": "queso_cremoso",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-cremoso.jpg",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": 131,
-      "name": "Queso(Mozzarella)",
+      "name": "Queso (Mozzarella)",
       "name_id": "queso_mozzarella",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-mozzarella.jpg",
@@ -1967,7 +1967,7 @@
     },
     {
       "id": 132,
-      "name": "Harina(Leudante)",
+      "name": "Harina (Leudante)",
       "name_id": "harina_leudante",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-leudante.jpg",
@@ -1982,7 +1982,7 @@
     },
     {
       "id": 133,
-      "name": "Harina(Integral)",
+      "name": "Harina (Integral)",
       "name_id": "harina_integral",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-integral.jpg",
@@ -1997,7 +1997,7 @@
     },
     {
       "id": 134,
-      "name": "Harina(Gluten)",
+      "name": "Harina (Gluten)",
       "name_id": "harina_gluten",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-gluten.jpg",
@@ -2012,7 +2012,7 @@
     },
     {
       "id": 135,
-      "name": "Nalga(Tapa)",
+      "name": "Nalga (Tapa)",
       "name_id": "nalga_tapa",
       "food_category_id": 4,
       "image_url": "img/ingredients/tapa-nalga.jpg",
@@ -2072,7 +2072,7 @@
     },
     {
       "id": 139,
-      "name": "Lomo(Bola)",
+      "name": "Lomo (Bola)",
       "name_id": "lomo_bola",
       "food_category_id": 4,
       "image_url": "img/ingredients/lomo-bola.jpg",
@@ -2117,7 +2117,7 @@
     },
     {
       "id": 143,
-      "name": "Carnasa(Paleta)",
+      "name": "Carnasa (Paleta)",
       "name_id": "carnasa_paleta",
       "food_category_id": 4,
       "image_url": "img/ingredients/carnasa-paleta.png",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": 144,
-      "name": "Paleta(Vaca)",
+      "name": "Paleta (Vaca)",
       "name_id": "paleta_vaca",
       "food_category_id": 4,
       "image_url": "img/ingredients/paleta.jpg",
@@ -2177,7 +2177,7 @@
     },
     {
       "id": 147,
-      "name": "Espinazo(Vaca)",
+      "name": "Espinazo (Vaca)",
       "name_id": "espinazo_vaca",
       "food_category_id": 4,
       "image_url": "img/ingredients/espinazo.jpg",
@@ -2192,7 +2192,7 @@
     },
     {
       "id": 148,
-      "name": "Bife(Asado)",
+      "name": "Bife (Asado)",
       "name_id": "bife_asado",
       "food_category_id": 4,
       "image_url": "img/ingredients/roast-beef.jpg",
@@ -2237,7 +2237,7 @@
     },
     {
       "id": 151,
-      "name": "Falda(Vaca)",
+      "name": "Falda (Vaca)",
       "name_id": "falda_vaca",
       "food_category_id": 4,
       "image_url": "img/ingredients/falda.jpg",
@@ -2252,7 +2252,7 @@
     },
     {
       "id": 152,
-      "name": "Tapa(Asado)",
+      "name": "Tapa (Asado)",
       "name_id": "tapa_asado",
       "food_category_id": 4,
       "image_url": "img/ingredients/tapa-asado.jpg",
@@ -2282,7 +2282,7 @@
     },
     {
       "id": 154,
-      "name": "Bife(Lomo)",
+      "name": "Bife (Lomo)",
       "name_id": "bife_lomo",
       "food_category_id": 4,
       "image_url": "img/ingredients/bife-lomo.jpg",
@@ -2297,7 +2297,7 @@
     },
     {
       "id": 155,
-      "name": "Bife(Angosto)",
+      "name": "Bife (Angosto)",
       "name_id": "bife_angosto",
       "food_category_id": 4,
       "image_url": "img/ingredients/bife-angosto.jpg",
@@ -2327,7 +2327,7 @@
     },
     {
       "id": 157,
-      "name": "Bife(Ancho)",
+      "name": "Bife (Ancho)",
       "name_id": "bife_ancho",
       "food_category_id": 4,
       "image_url": "img/ingredients/bife-ancho.jpeg",
@@ -2342,7 +2342,7 @@
     },
     {
       "id": 158,
-      "name": "Bife(Ojo de)",
+      "name": "Bife (Ojo de)",
       "name_id": "bife_ojo",
       "food_category_id": 4,
       "image_url": "img/ingredients/bife-ojo.jpg",
@@ -2357,7 +2357,7 @@
     },
     {
       "id": 159,
-      "name": "Tapa(Bife ancho)",
+      "name": "Tapa (Bife ancho)",
       "name_id": "tapa_bife_ancho",
       "food_category_id": 4,
       "image_url": "img/ingredients/tapa-bife.jpeg",
@@ -2372,7 +2372,7 @@
     },
     {
       "id": 160,
-      "name": "Tapa(Cuadril)",
+      "name": "Tapa (Cuadril)",
       "name_id": "tapa_cuadril",
       "food_category_id": 4,
       "image_url": "img/ingredients/tapa-cuadril.jpg",
@@ -2387,7 +2387,7 @@
     },
     {
       "id": 161,
-      "name": "Asado(Tira)",
+      "name": "Asado (Tira)",
       "name_id": "asado_tira",
       "food_category_id": 4,
       "image_url": "img/ingredients/asado-tira.jpg",
@@ -2447,7 +2447,7 @@
     },
     {
       "id": 165,
-      "name": "Espinazo(Cerdo)",
+      "name": "Espinazo (Cerdo)",
       "name_id": "espinazo_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/espinazo-cerdo.jpg",
@@ -2477,7 +2477,7 @@
     },
     {
       "id": 167,
-      "name": "Pulpa(Cerdo)",
+      "name": "Pulpa (Cerdo)",
       "name_id": "pulpa_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/pulpa-cerdo.jpg",
@@ -2507,7 +2507,7 @@
     },
     {
       "id": 169,
-      "name": "Lomo(Cerdo)",
+      "name": "Lomo (Cerdo)",
       "name_id": "lomo_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/lomo-cerdo.jpg",
@@ -2522,7 +2522,7 @@
     },
     {
       "id": 170,
-      "name": "Costillas(Cerdo)",
+      "name": "Costillas (Cerdo)",
       "name_id": "costillas_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/costillas-cerdo.jpg",
@@ -2537,7 +2537,7 @@
     },
     {
       "id": 171,
-      "name": "Falda(Cerdo)",
+      "name": "Falda (Cerdo)",
       "name_id": "falda_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/falda-cerdo.jpg",
@@ -2567,7 +2567,7 @@
     },
     {
       "id": 173,
-      "name": "Paleta(Cerdo)",
+      "name": "Paleta (Cerdo)",
       "name_id": "paleta_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/paleta-cerdo.jpg",
@@ -2582,7 +2582,7 @@
     },
     {
       "id": 174,
-      "name": "Chamorro(Cerdo)",
+      "name": "Chamorro (Cerdo)",
       "name_id": "chamorro_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/chamorro.jpg",
@@ -2597,7 +2597,7 @@
     },
     {
       "id": 175,
-      "name": "Cabeza(Cerdo)",
+      "name": "Cabeza (Cerdo)",
       "name_id": "cabeza_cerdo",
       "food_category_id": 4,
       "image_url": "img/ingredients/cabeza-cerdo.jpg",
@@ -2612,7 +2612,7 @@
     },
     {
       "id": 176,
-      "name": "Pechuga(Pollo)",
+      "name": "Pechuga (Pollo)",
       "name_id": "pechuga_pollo",
       "food_category_id": 1,
       "image_url": "img/ingredients/pechuga-pollo.jpg",
@@ -2627,7 +2627,7 @@
     },
     {
       "id": 177,
-      "name": "Muslo(Pollo)",
+      "name": "Muslo (Pollo)",
       "name_id": "muslo_pollo",
       "food_category_id": 1,
       "image_url": "img/ingredients/muslo-pollo.jpg",
@@ -2642,7 +2642,7 @@
     },
     {
       "id": 178,
-      "name": "Pezuñas(Pollo)",
+      "name": "Pezuñas (Pollo)",
       "name_id": "pezuñas_pollo",
       "food_category_id": 1,
       "image_url": "img/ingredients/pezuñas-pollo.jpg",
@@ -2657,7 +2657,7 @@
     },
     {
       "id": 179,
-      "name": "Pata(Pollo)",
+      "name": "Pata (Pollo)",
       "name_id": "pata_pollo",
       "food_category_id": 1,
       "image_url": "img/ingredients/pata-pollo.jpeg",
@@ -2672,7 +2672,7 @@
     },
     {
       "id": 180,
-      "name": "Alas(Pollo)",
+      "name": "Alas (Pollo)",
       "name_id": "alas_pollo",
       "food_category_id": 1,
       "image_url": "img/ingredients/alas-pollo.jpg",
@@ -2972,7 +2972,7 @@
     },
     {
       "id": 200,
-      "name": "Queso(Fontina)",
+      "name": "Queso (Fontina)",
       "name_id": "queso_fontina",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-fontina.jpg",
@@ -2987,7 +2987,7 @@
     },
     {
       "id": 201,
-      "name": "Queso(Cabra)",
+      "name": "Queso (Cabra)",
       "name_id": "queso_cabra",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-cabra.jpg",
@@ -3002,7 +3002,7 @@
     },
     {
       "id": 202,
-      "name": "Queso(Roquefort)",
+      "name": "Queso (Roquefort)",
       "name_id": "queso_roquefort",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-roquefort.jpg",
@@ -3017,7 +3017,7 @@
     },
     {
       "id": 203,
-      "name": "Queso(Cheddar)",
+      "name": "Queso (Cheddar)",
       "name_id": "queso_cheddar",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-cheddar.jpg",
@@ -3032,7 +3032,7 @@
     },
     {
       "id": 204,
-      "name": "Queso(Gouda)",
+      "name": "Queso (Gouda)",
       "name_id": "queso_gouda",
       "food_category_id": 15,
       "image_url": "img/ingredients/queso-gouda.jpg",
@@ -3047,7 +3047,7 @@
     },
     {
       "id": 205,
-      "name": "Queso(Gruyer)",
+      "name": "Queso (Gruyer)",
       "name_id": "queso_gruyer",
       "food_category_id": 15,
       "image_url": "img/ingredients/queso-gruyer.jpg",
@@ -3062,7 +3062,7 @@
     },
     {
       "id": 206,
-      "name": "Queso(Parmesano)",
+      "name": "Queso (Parmesano)",
       "name_id": "queso_parmesano",
       "food_category_id": 15,
       "image_url": "img/ingredients/queso-parmesano.jpg",
@@ -3077,7 +3077,7 @@
     },
     {
       "id": 207,
-      "name": "Queso(Provolone)",
+      "name": "Queso (Provolone)",
       "name_id": "queso_provolone",
       "food_category_id": 15,
       "image_url": "img/ingredients/queso-provolone.jpg",
@@ -3092,7 +3092,7 @@
     },
     {
       "id": 208,
-      "name": "Queso(Tofu)",
+      "name": "Queso (Tofu)",
       "name_id": "queso_tofu",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-tofu.jpg",
@@ -3137,7 +3137,7 @@
     },
     {
       "id": 211,
-      "name": "Huevo(Gallina)",
+      "name": "Huevo (Gallina)",
       "name_id": "huevo_gallina",
       "food_category_id": 16,
       "image_url": "img/ingredients/huevo.jpg",
@@ -3182,7 +3182,7 @@
     },
     {
       "id": 214,
-      "name": "Azucar(Impalpable)",
+      "name": "Azucar (Impalpable)",
       "name_id": "azucar_impalpable",
       "food_category_id": 5,
       "image_url": "img/ingredients/azucar-impalpable.jpg",
@@ -3197,7 +3197,7 @@
     },
     {
       "id": 215,
-      "name": "Huevo(Clara)",
+      "name": "Huevo (Clara)",
       "name_id": "huevo_clara",
       "food_category_id": 16,
       "image_url": "img/ingredients/huevo-clara.jpg",
@@ -3212,7 +3212,7 @@
     },
     {
       "id": 216,
-      "name": "Huevo(Yema)",
+      "name": "Huevo (Yema)",
       "name_id": "huevo_yema",
       "food_category_id": 16,
       "image_url": "img/ingredients/huevo-yema.jpg",
@@ -3227,7 +3227,7 @@
     },
     {
       "id": 217,
-      "name": "Harina(Sin TACC)",
+      "name": "Harina (Sin TACC)",
       "name_id": "harina_tac",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-sin-tac.jpg",
@@ -3257,7 +3257,7 @@
     },
     {
       "id": 219,
-      "name": "Levadura(Sin TACC)",
+      "name": "Levadura (Sin TACC)",
       "name_id": "levadura_tac",
       "food_category_id": 5,
       "image_url": "img/ingredients/levadura-sin-tac.jpg",
@@ -3287,7 +3287,7 @@
     },
     {
       "id": 221,
-      "name": "Harina(Arroz)",
+      "name": "Harina (Arroz)",
       "name_id": "harina_arroz",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-arroz.jpg",
@@ -3302,7 +3302,7 @@
     },
     {
       "id": 222,
-      "name": "Queso(Crema)",
+      "name": "Queso (Crema)",
       "name_id": "queso_crema",
       "food_category_id": 13,
       "image_url": "img/ingredients/queso-crema.jpg",
@@ -3317,7 +3317,7 @@
     },
     {
       "id": 223,
-      "name": "Leche descremada(Polvo)",
+      "name": "Leche descremada (Polvo)",
       "name_id": "leche_descremada_polvo",
       "food_category_id": 7,
       "image_url": "img/ingredients/leche-polvo-descremada.jpg",
@@ -3332,7 +3332,7 @@
     },
     {
       "id": 224,
-      "name": "Leche descremada(Liquida)",
+      "name": "Leche descremada (Liquida)",
       "name_id": "leche_descremada_liquida",
       "food_category_id": 7,
       "image_url": "img/ingredients/leche-descremada.jpg",
@@ -3362,7 +3362,7 @@
     },
     {
       "id": 226,
-      "name": "Fecula(Mandioca)",
+      "name": "Fecula (Mandioca)",
       "name_id": "fecula_mandioca",
       "food_category_id": 5,
       "image_url": "img/ingredients/fecula-mandioca.jpg",
@@ -3437,7 +3437,7 @@
     },
     {
       "id": 231,
-      "name": "Jamon(Cocido)",
+      "name": "Jamon (Cocido)",
       "name_id": "jamon_cocido",
       "food_category_id": 4,
       "image_url": "img/ingredients/jamon-cocido.jpg",
@@ -3452,7 +3452,7 @@
     },
     {
       "id": 232,
-      "name": "Jamon(Crudo)",
+      "name": "Jamon (Crudo)",
       "name_id": "jamon_crudo",
       "food_category_id": 4,
       "image_url": "img/ingredients/jamon-crudo.jpg",
@@ -3467,7 +3467,7 @@
     },
     {
       "id": 233,
-      "name": "Harina(Maiz)",
+      "name": "Harina (Maiz)",
       "name_id": "harina_maiz",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-maiz.jpg",
@@ -3482,7 +3482,7 @@
     },
     {
       "id": 234,
-      "name": "Vainilla(Esencia)",
+      "name": "Vainilla (Esencia)",
       "name_id": "vainilla_esencia",
       "food_category_id": 5,
       "image_url": "img/ingredients/vainilla_esencia.jpg",
@@ -3497,7 +3497,7 @@
     },
     {
       "id": 235,
-      "name": "Tomate(Perita)",
+      "name": "Tomate (Perita)",
       "name_id": "tomate_perita",
       "food_category_id": 3,
       "image_url": "img/ingredients/tomate_perita.jpg",
@@ -3512,7 +3512,7 @@
     },
     {
       "id": 236,
-      "name": "Tomate(Pure)",
+      "name": "Tomate (Pure)",
       "name_id": "tomate_pure",
       "food_category_id": 5,
       "image_url": "img/ingredients/tomate_pure.jpg",
@@ -3542,7 +3542,7 @@
     },
     {
       "id": 238,
-      "name": "Aceituna(Negra)",
+      "name": "Aceituna (Negra)",
       "name_id": "aceituna_negra",
       "food_category_id": 6,
       "image_url": "img/ingredients/aceituna-negra.jpg",
@@ -3557,7 +3557,7 @@
     },
     {
       "id": 239,
-      "name": "Aceituna(verde)",
+      "name": "Aceituna (verde)",
       "name_id": "aceituna_verde",
       "food_category_id": 6,
       "image_url": "img/ingredients/aceituna-verde.jpg",
@@ -3572,7 +3572,7 @@
     },
     {
       "id": 240,
-      "name": "Tomate(Salsa para pizza)",
+      "name": "Tomate (Salsa para pizza)",
       "name_id": "salsa_pizza",
       "food_category_id": 6,
       "image_url": "img/ingredients/salsa-pizza.jpg",
@@ -3602,7 +3602,7 @@
     },
     {
       "id": 242,
-      "name": "Vinagre(Manzana)",
+      "name": "Vinagre (Manzana)",
       "name_id": "vinagre_manzana",
       "food_category_id": 6,
       "image_url": "img/ingredients/vinagre-de-manzana.jpg",
@@ -3617,7 +3617,7 @@
     },
     {
       "id": 243,
-      "name": "Leche(Coco)",
+      "name": "Leche (Coco)",
       "name_id": "leche_coco",
       "food_category_id": 6,
       "image_url": "img/ingredients/leche_coco.jpg",
@@ -3647,7 +3647,7 @@
     },
     {
       "id": 245,
-      "name": "Uva(Pasa)",
+      "name": "Uva (Pasa)",
       "name_id": "uva_pasa",
       "food_category_id": 10,
       "image_url": "img/ingredients/pasa-uva.jpg",
@@ -3662,7 +3662,7 @@
     },
     {
       "id": 246,
-      "name": "Harina(Garbanzo)",
+      "name": "Harina (Garbanzo)",
       "name_id": "harina_garbanzo",
       "food_category_id": 5,
       "image_url": "img/ingredients/harina-garbanzo.jpg",
@@ -3677,7 +3677,7 @@
     },
     {
       "id": 247,
-      "name": "Vinagre(Alcohol)",
+      "name": "Vinagre (Alcohol)",
       "name_id": "vinagre_alcohol",
       "food_category_id": 6,
       "image_url": "img/ingredients/vinagre-acohol.jpg",
@@ -3722,7 +3722,7 @@
     },
     {
       "id": 250,
-      "name": "Vino(Blanco)",
+      "name": "Vino (Blanco)",
       "name_id": "vino_blanco",
       "food_category_id": 6,
       "image_url": "img/ingredients/vino_blanco.jpg",
@@ -3782,7 +3782,7 @@
     },
     {
       "id": 254,
-      "name": "Queso(Mozzarella Vegano)",
+      "name": "Queso (Mozzarella Vegano)",
       "name_id": "mozarella_vegano",
       "food_category_id": 13,
       "image_url": "img/ingredients/mozarella-vegana.jpg",
@@ -3827,7 +3827,7 @@
     },
     {
       "id": 257,
-      "name": "Fideo(Spaghetti)",
+      "name": "Fideo (Spaghetti)",
       "name_id": "fideo_spaghetti",
       "food_category_id": 6,
       "image_url": "img/ingredients/spaghetti.jpg",
@@ -3842,7 +3842,7 @@
     },
     {
       "id": 258,
-      "name": "Soja(Brote)",
+      "name": "Soja (Brote)",
       "name_id": "brote_soja",
       "food_category_id": 6,
       "image_url": "img/ingredients/brote_soja.jpg",
@@ -3902,7 +3902,7 @@
     },
     {
       "id": 262,
-      "name": "Arroz(Basmati)",
+      "name": "Arroz (Basmati)",
       "name_id": "arroz_basmati",
       "food_category_id": 6,
       "image_url": "img/ingredients/arroz-bastami.jpg",
@@ -3917,7 +3917,7 @@
     },
     {
       "id": 263,
-      "name": "Soja(Salsa)",
+      "name": "Soja (Salsa)",
       "name_id": "salsa_soja",
       "food_category_id": 6,
       "image_url": "img/ingredients/salsa-soja.jpg",
@@ -3932,7 +3932,7 @@
     },
     {
       "id": 264,
-      "name": "Tomate(Cherry)",
+      "name": "Tomate (Cherry)",
       "name_id": "tomate_cherry",
       "food_category_id": 3,
       "image_url": "img/ingredients/tomate_cherry.jpg",
@@ -3947,7 +3947,7 @@
     },
     {
       "id": 265,
-      "name": "Arroz(Integral)",
+      "name": "Arroz (Integral)",
       "name_id": "arroz_integral",
       "food_category_id": 11,
       "image_url": "img/ingredients/Arroz-integral.jpg",
@@ -3992,7 +3992,7 @@
     },
     {
       "id": 268,
-      "name": "Pimiento(Chile)",
+      "name": "Pimiento (Chile)",
       "name_id": "pimiento_chile",
       "food_category_id": 6,
       "image_url": "img/ingredients/chile-picante.jpg",
